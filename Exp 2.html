@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Banking UI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .card-gradient {
+            background: linear-gradient(135deg, #4F46E5, #818CF8);
+        }
+    </style>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 flex items-center justify-center min-h-screen p-4">
+
+    <div class="w-full max-w-md mx-auto bg-white dark:bg-gray-800 rounded-2xl shadow-2xl overflow-hidden">
+        <div class="p-6 md:p-8">
+            
+            <!-- Header -->
+            <div class="flex justify-between items-center mb-6">
+                <h1 class="text-2xl font-bold text-gray-800 dark:text-white">My Account</h1>
+                <div class="w-10 h-10 bg-gray-200 dark:bg-gray-700 rounded-full flex items-center justify-center">
+                    <svg class="w-6 h-6 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+                </div>
+            </div>
+
+            <!-- Balance Card -->
+            <div class="card-gradient text-white rounded-xl p-6 mb-8 shadow-lg">
+                <div class="flex justify-between items-start">
+                    <div>
+                        <p class="text-sm font-medium opacity-80">Available Balance</p>
+                        <p id="balance" class="text-4xl font-bold tracking-tight mt-1">$100,000,000,000</p>
+                    </div>
+                    <svg class="w-8 h-8 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"></path></svg>
+                </div>
+                <div class="mt-6">
+                    <p class="text-sm font-mono opacity-80 tracking-widest">**** **** **** 3456</p>
+                    <p class="text-sm font-medium opacity-80 mt-1">Zayn</p>
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <button id="depositBtn" class="w-full flex items-center justify-center gap-2 bg-emerald-500 hover:bg-emerald-600 text-white font-semibold py-3 px-4 rounded-lg shadow-md transition-transform transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:ring-opacity-75">
+                    <i data-lucide="arrow-down-left"></i>
+                    <span>Deposit</span>
+                </button>
+                <button id="withdrawBtn" class="w-full flex items-center justify-center gap-2 bg-rose-500 hover:bg-rose-600 text-white font-semibold py-3 px-4 rounded-lg shadow-md transition-transform transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-rose-400 focus:ring-opacity-75">
+                    <i data-lucide="arrow-up-right"></i>
+                    <span>Withdraw</span>
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Modal for transactions -->
+    <div id="modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden z-50 p-4">
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-xl p-6 w-full max-w-sm">
+            <h2 id="modalTitle" class="text-xl font-bold mb-4 text-gray-800 dark:text-white"></h2>
+            <input type="number" id="amountInput" placeholder="Enter amount" class="w-full p-2 border border-gray-300 dark:border-gray-600 rounded-md bg-gray-50 dark:bg-gray-700 text-gray-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-indigo-500">
+            <div class="mt-6 flex justify-end gap-3">
+                <button id="cancelBtn" class="px-4 py-2 bg-gray-200 dark:bg-gray-600 text-gray-800 dark:text-gray-200 rounded-md hover:bg-gray-300 dark:hover:bg-gray-500 transition">Cancel</button>
+                <button id="confirmBtn" class="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition">Confirm</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        // DOM Elements
+        const balanceEl = document.getElementById('balance');
+        const depositBtn = document.getElementById('depositBtn');
+        const withdrawBtn = document.getElementById('withdrawBtn');
+        const modal = document.getElementById('modal');
+        const modalTitle = document.getElementById('modalTitle');
+        const amountInput = document.getElementById('amountInput');
+        const cancelBtn = document.getElementById('cancelBtn');
+        const confirmBtn = document.getElementById('confirmBtn');
+
+        let currentBalance = 1000000000;
+        let currentAction = null;
+
+        // Format balance to currency string
+        const formatCurrency = (amount) => {
+            return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(amount);
+        };
+
+        // Update balance display
+        const updateBalance = () => {
+            balanceEl.textContent = formatCurrency(currentBalance);
+        };
+
+        // Show modal
+        const showModal = (action) => {
+            currentAction = action;
+            modalTitle.textContent = action === 'deposit' ? 'Deposit Funds' : 'Withdraw Funds';
+            confirmBtn.className = `px-4 py-2 text-white rounded-md transition ${action === 'deposit' ? 'bg-emerald-500 hover:bg-emerald-600' : 'bg-rose-500 hover:bg-rose-600'}`;
+            modal.classList.remove('hidden');
+            amountInput.focus();
+        };
+
+        // Hide modal
+        const hideModal = () => {
+            modal.classList.add('hidden');
+            amountInput.value = '';
+            currentAction = null;
+        };
+
+        // Event Listeners
+        depositBtn.addEventListener('click', () => showModal('deposit'));
+        withdrawBtn.addEventListener('click', () => showModal('withdraw'));
+        cancelBtn.addEventListener('click', hideModal);
+
+        confirmBtn.addEventListener('click', () => {
+            const amount = parseFloat(amountInput.value);
+
+            if (isNaN(amount) || amount <= 0) {
+                alert('Please enter a valid positive amount.');
+                return;
+            }
+
+            if (currentAction === 'deposit') {
+                currentBalance += amount;
+            } else if (currentAction === 'withdraw') {
+                if (amount > currentBalance) {
+                    alert('Insufficient funds.');
+                    return;
+                }
+                currentBalance -= amount;
+            }
+
+            updateBalance();
+            hideModal();
+        });
+        
+        // Close modal with Escape key
+        window.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+                hideModal();
+            }
+        });
+
+        // Initial balance update
+        updateBalance();
+    </script>
+</body>
+</html>
