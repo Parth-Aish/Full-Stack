@@ -1,0 +1,85 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f4f7f6;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.app-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.detail-card {
+  background-color: #fdfdfd;
+  border-radius: 8px;
+  padding: 25px;
+  width: 300px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease-in-out;
+  border-left: 5px solid; /* For class-specific coloring */
+}
+
+.detail-card:hover {
+  transform: translateY(-5px);
+}
+
+.detail-card.person {
+  border-color: #3498db; /* Blue */
+}
+
+.detail-card.student {
+  border-color: #2ecc71; /* Green */
+}
+
+.detail-card.teacher {
+  border-color: #e74c3c; /* Red */
+}
+
+.detail-card h3 {
+  margin-top: 0;
+  color: #34495e;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.detail-card p {
+  text-align: left; /* Override global p alignment */
+  margin: 8px 0;
+  color: #555;
+}
+
+.detail-card .introduction {
+  font-style: italic;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px dashed #eee;
+  color: #777;
+}
