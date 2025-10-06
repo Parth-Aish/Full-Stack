@@ -1,0 +1,241 @@
+S.No.,Organization,Problem Statement Title,Category,PS Number,Submitted Idea(s) Count,Theme,Deadline for Idea Submission
+1,Ministry of Development of North Eastern Region (MoDoNER),Smart Community Health Monitoring and Early Warning System for Water-Borne Diseases in Rural Northeast India,Software,SIH25001,1100/500,MedTech / BioTech / HealthTech,30 September 2025
+2,Ministry of Development of North Eastern Region (MoDoNER),Smart Tourist Safety Monitoring & Incident Response System using Al, Geo-Fencing, and Blockchain-based Digital ID,Software,SIH25002,290/500,Travel & Tourism,30 September 2025
+3,Ministry of Development of North Eastern Region (MoDoNER),Low-Cost smart transportation solution for Agri produce from remote farms to nearest motorable road in NER Region,Hardware,SIH25003,32/500,Transportation & Logistics,30 September 2025
+4,Ministry of Fisheries, Animal Husbandry & Dairying,Image based breed recognition for cattle and buffaloes of India,Software,SIH25004,97/500,Agriculture, FoodTech & Rural Development,30 September 2025
+5,Ministry of Fisheries, Animal Husbandry & Dairying,Image based Animal Type Classification for cattle and buffaloes,Software,SIH25005,25/500,Agriculture, FoodTech & Rural Development,30 September 2025
+6,Ministry of Fisheries, Animal Husbandry & Dairying,Development of a Digital Farm Management Portal for implementing Biosecurity measures in Pig and Poultry Farms,Software,SIH25006,21/500,Agriculture, FoodTech & Rural Development,30 September 2025
+7,Ministry of Fisheries, Animal Husbandry & Dairying,Development of a Digital Farm Management Portal for Monitoring Maximum Residue Limits (MRL) and Antimicrobial Usage (AMU) in Livestock,Software,SIH25007,17/500,Agriculture, FoodTech & Rural Development,30 September 2025
+8,Government of Punjab,Disaster Preparedness and Response Education System for Schools and Colleges,Software,SIH25008,89/500,Disaster Management,30 September 2025
+9,Government of Punjab,Gamified Environmental Education Platform for Schools and Colleges,Software,SIH25009,145/500,Smart Education,30 September 2025
+10,Government of Punjab,Smart Crop Advisory System for Small and Marginal Farmers,Software,SIH25010,173/500,Agriculture, FoodTech & Rural Development,30 September 2025
+11,Government of Punjab,Smart Curriculum Activity & Attendance App,Software,SIH25011,99/500,Smart Education,30 September 2025
+12,Government of Punjab,Automated Attendance System for Rural Schools,Software,SIH25012,112/500,Smart Education,30 September 2025
+13,Government of Punjab,Real-Time Public Transport Tracking for Small Cities,Software,SIH25013,250/500,Transportation & Logistics,30 September 2025
+14,Government of Punjab,Waste Segregation Monitoring System for Urban Local Bodies,Hardware,SIH25014,66/500,Clean & Green Technology,30 September 2025
+15,Government of Punjab,Intelligent Pesticide Sprinkling System Determined by the Infection Level of a Plant,Hardware,SIH25015,90/500,Agriculture, FoodTech & Rural Development,30 September 2025
+16,Government of Punjab,Automated Student Attendance Monitoring and Analytics System for Colleges,Software,SIH25016,181/500,Smart Education,30 September 2025
+17,Government of Punjab,Digital Platform for Centralized Alumni Data Management and Engagement,Software,SIH25017,81/500,Smart Education,30 September 2025
+18,Government of Punjab,Telemedicine Access for Rural Healthcare in Nabha,Software,SIH25018,144/500,MedTech / BioTech / HealthTech,30 September 2025
+19,Government of Punjab,Digital Learning Platform for Rural School Students in Nabha,Software,SIH25019,95/500,Smart Education,30 September 2025
+20,Ministry of Railways,Development of indigenous contactless Integrated Track Monitoring Systems (ITMS) for Track Recording on Indian Railways,Hardware,SIH25020,32/500,Smart Automation,30 September 2025
+21,Ministry of Railways,AI based development of Laser based QR Code marking on 'track fittings on Indian Railways'.,Hardware,SIH25021,36/500,Transportation & Logistics,30 September 2025
+22,Ministry of Railways,Maximizing Section Throughput Using Al-Powered Precise Train Traffic Control,Software,SIH25022,77/500,Transportation & Logistics,30 September 2025
+23,Ministry of Ayush,AyurSutra- Panchakarma Patient Management and therapy scheduling Software,Software,SIH25023,64/500,MedTech / BioTech / HealthTech,30 September 2025
+24,Ministry of Ayush,"Comprehensive Cloud-Based Practice Management & Nutrient Analysis Software for Ayurvedic Dietitians, Tailored for Ayurveda-Focused Diet Plans",Software,SIH25024,21/500,MedTech / BioTech / HealthTech,30 September 2025
+25,Ministry of Ayush,E tongue for Dravya identification,Hardware,SIH25025,25/500,MedTech / BioTech / HealthTech,30 September 2025
+26,Ministry of Ayush,"Develop API code to integrate NAMASTE and or the International Classification of Diseases (ICD-11) via the Traditional Medicine Module 2 (TM2) into existing EMR systems that comply with Electronic Health Record (EHR) Standards for India.",Software,SIH25026,40/500,MedTech / BioTech / HealthTech,30 September 2025
+27,Ministry of Ayush,"Develop a blockchain-based system for botanical traceability of Ayurvedic herbs, including geo-tagging from the point of collection (farmers/wild collectors) to the final Ayurvedic formulation label.",Software,SIH25027,57/500,Blockchain & Cybersecurity,30 September 2025
+28,Government of Jharkhand,Smart Classroom & Timetable Scheduler,Software,SIH25028,117/500,Smart Education,30 September 2025
+29,Government of Jharkhand,Authenticity Validator for Academia,Software,SIH25029,58/500,Smart Education,30 September 2025
+30,Government of Jharkhand,Al-Based Crop Recommendation for Farmers,Software,SIH25030,152/500,Agriculture, FoodTech & Rural Development,30 September 2025
+31,Government of Jharkhand,Crowdsourced Civic lssue Reporting and Resolution System,Software,SIH25031,500/500,Clean & Green Technology,30 September 2025
+32,Government of Jharkhand,Development of a Smart Digital Platform to Promote Eco & Cultural Tourism in Jharkhand,Software,SIH25032,81/500,Travel & Tourism,30 September 2025
+33,Ministry of Corporate Affairs,Al-Based Smart Allocation Engine for PM Internship Scheme,Software,SIH25033,38/500,Smart Automation,30 September 2025
+34,Ministry of Corporate Affairs,Al-Based Internship Recommendation Engine for PM Internship Scheme,Software,SIH25034,92/500,Smart Education,30 September 2025
+35,Ministry of Corporate Affairs,Sentiment analysis of comments received through E-consultation module,Software,SIH25035,45/500,Miscellaneous,30 September 2025
+36,Ministry of Earth Sciences (MoES),Development of Sensor for Detection Of Microplastics,Hardware,SIH25036,68/500,Miscellaneous,30 September 2025
+37,Ministry of Earth Sciences (MoES),Development of a low-cost camera-based automated beach sand grain size mapping system,Hardware,SIH25037,5/500,Miscellaneous,30 September 2025
+38,Ministry of Earth Sciences (MoES),Blockchain-Based Blue Carbon Registry and MRV System,Software,SIH25038,33/500,Clean & Green Technology,30 September 2025
+39,Ministry of Earth Sciences (MoES),Integrated Platform for Crowdsourced Ocean Hazard Reporting and Social Media Analytics,Software,SIH25039,41/500,Disaster Management,30 September 2025
+40,Ministry of Earth Sciences (MoES),FloatChat - AI-Powered Conversational Interface for ARGO Ocean Data Discovery and Visualization,Software,SIH25040,57/500,Miscellaneous,30 September 2025
+41,Ministry of Earth Sciences (MoES),AI-Driven Unified Data Platform for Oceanographic, Fisheries, and Molecular Biodiversity Insights,Software,SIH25041,26/500,Renewable / Sustainable Energy,30 September 2025
+42,Ministry of Earth Sciences (MoES),Identifying Taxonomy and Assessing Biodiversity from eDNA Datasets,Software,SIH25042,12/500,Miscellaneous,30 September 2025
+43,Ministry of Earth Sciences (MoES),Embedded Intelligent Microscopy System for Identification and Counting of Microscopic Marine Organisms,Hardware,SIH25043,10/500,Smart Automation,30 September 2025
+44,Government of Odisha,Al-Powered Crop Yield Prediction and Optimization,Software,SIH25044,95/500,Agriculture, FoodTech & Rural Development,30 September 2025
+45,Government of Odisha,Blockchain-Based Supply Chain Transparency for Agricultural Produce,Software,SIH25045,46/500,Agriculture, FoodTech & Rural Development,30 September 2025
+46,Government of Odisha,Smart Waste Segregation and Recycling System,Hardware,SIH25046,98/500,Clean & Green Technology,30 September 2025
+47,Government of Odisha,Disaster Response Drone for Remote Areas,Hardware,SIH25047,81/500,Robotics and Drones,30 September 2025
+48,Government of Odisha,Gamified Learning Platform for Rural Education,Software,SIH25048,130/500,Smart Education,30 September 2025
+49,Government of Odisha,Al-Driven Public Health Chatbot for Disease Awareness,Software,SIH25049,185/500,MedTech / BioTech / HealthTech,30 September 2025
+50,Government of Odisha,Smart Traffic Management Systern for Urban Congestion,Software,SIH25050,129/500,Transportation & Logistics,30 September 2025
+51,Government of Odisha,Renewable Energy Monitoring System for Microgrids,Hardware,SIH25051,48/500,Renewable / Sustainable Energy,30 September 2025
+52,Government of Odisha,AR-Based Cultural Heritage Preservation Platform,Software,SIH25052,45/500,Heritage & Culture,30 September 2025
+53,"Ministry of Consumer Affairs, Food & Public Distribution (MoCA,F&PD)",Improved Onion storage technology for enhancing shelf life of onions,Hardware,SIH25053,57/500,Agriculture, FoodTech & Rural Development,30 September 2025
+54,"Ministry of Consumer Affairs, Food & Public Distribution (MoCA,F&PD)",Automated High-Current Short-Circuit Test System for MCB to comply with IEC 60898-1:2015,Hardware,SIH25054,8/500,Smart Automation,30 September 2025
+55,"Ministry of Consumer Affairs, Food & Public Distribution (MoCA,F&PD)",Automated Specimen Preparation System for testing of Cable samples as per IS 10810 and IS 7098.,Hardware,SIH25055,1/500,Miscellaneous,30 September 2025
+56,"Ministry of Consumer Affairs, Food & Public Distribution (MoCA,F&PD)",To explore new/altermative assaying methods to the fire assay method for testing of gold jewellery and artefacts through non-destructive testing,Hardware,SIH25056,3/500,Miscellaneous,30 September 2025
+57,"Ministry of Consumer Affairs, Food & Public Distribution (MoCA,F&PD)",Automated Compliance Checker for Legal Metrology Declarations on E-Commerce Platforms,Hardware,SIH25057,8/500,Miscellaneous,30 September 2025
+58,"Ministry of Consumer Affairs, Food & Public Distribution (MoCA,F&PD)",Detection and Prevention of Tampering in Weighing and Measuring instruments,Hardware,SIH25058,7/500,Miscellaneous,30 September 2025
+59,Ministry of Social Justice & Empowerment (MoSJE),"Enhancing Student Awareness on difference between Aadhaar linked and Direct Beneficiary Transfer(DBT) enabled Aadhaar seeded bank account.",Software,SIH25059,11/500,Miscellaneous,30 September 2025
+60,Ministry of Social Justice & Empowerment (MoSJE),Real life solutions for Waste Management.,Software,SIH25060,110/500,Clean & Green Technology,30 September 2025
+61,Government of Sikkim,Digitize and Showcase Monasteries of Sikkim for Tourism and Cultural Preservation,Software,SIH25061,48/500,Travel & Tourism,30 September 2025
+62,Government of Sikkim,Implementation of Smart Agriculture for Efficient Cultivation in Hilly Regions,Hardware,SIH25062,57/500,Agriculture, FoodTech & Rural Development,30 September 2025
+63,Government of Kerala,Developing a cost effective solution for detecting the breakage of Low Voltage AC Distribution Over Head conductors,Hardware,SIH25063,17/500,Disaster Management,30 September 2025
+64,Government of Kerala,Improving the Renewable Energy hosting capacity in Distribution Feeders improving the Power quality of Distribution network during high RE injection,Hardware,SIH25064,11/500,Renewable / Sustainable Energy,30 September 2025
+65,Ministry of Jal Shakti,"Designing and development of an application for on spot assessment of Roof Top Rain water harvesting and artificial recharge potential and size of the RTRWH and AR.",Software,SIH25065,18/500,Smart Automation,30 September 2025
+66,Ministry of Jal Shakti,Development of an Al-driven ChatBOT for INGRES as a virtuall assistant,Software,SIH25066,29/500,Smart Automation,30 September 2025
+67,Ministry of Jal Shakti,Proposal for Design and development of application or Heavy Metal Pollution indices,Software,SIH25067,12/500,Miscellaneous,30 September 2025
+68,Ministry of Jal Shakti,Real time Groundwater resource evaluation using DWLR data,Software,SIH25068,29/500,Miscellaneous,30 September 2025
+69,Ministry of Mines,Al-Driven Life Cycle Assessment (LCA) Tool for Advancing Circulanty and Sustainability in Metallurgy and Mining,Software,SIH25069,13/500,Miscellaneous,30 September 2025
+70,Ministry of Mines,Secure Data Wiping for Trustworthy IT Asset Recycling,Software,SIH25070,47/500,Miscellaneous,30 September 2025
+71,Ministry of Mines,Al-Based Rockfall Prediction and Alert System for Open-Pit Mines,Software,SIH25071,39/500,Disaster Management,30 September 2025
+72,Ministry of Mines,Design and Implementation of Solar-Powered Dewatering in Mining Operations.,Hardware,SIH25072,24/500,Renewable / Sustainable Energy,30 September 2025
+73,Ministry of Youth Affairs and Sports,Al-Powered Mobile Platform for Democratizing Sports Talent Assessment,Software,SIH25073,86/500,Fitness & Sports,30 September 2025
+74,Government of Kerala,AI-Powered Personal Farming Assistant for Kerala Farmers,Software,SIH25074,55/500,Agriculture, FoodTech & Rural Development,30 September 2025
+75,Government of Kerala,Gamified Platform to Promote Sustainable Farming Practices,Software,SIH25075,27/500,Agriculture, FoodTech & Rural Development,30 September 2025
+76,Government of Kerala,AI-Based Farmer Query Support and Advisory System,Software,SIH25076,82/500,Agriculture, FoodTech & Rural Development,30 September 2025
+77,Government of Kerala,A hardware that can detect and prevent unauthorized use of electric fences,Hardware,SIH25077,32/500,Smart Automation,30 September 2025
+78,Government of Kerala,Software other than a circuit breaker that can be used to detect and turn off LT lines when the line breaks,Software,SIH25079,9/500,Disaster Management,30 September 2025
+79,Government of Kerala,Document Overload at Kochi Metro Rail Limited (KMRL)-An automated solution,Software,SIH25080,24/500,Smart Automation,30 September 2025
+80,Government of Kerala,AI-Driven Train Induction Planning & Scheduling for Kochi Metro Rail Limited (KMRL),Software,SIH25081,22/500,Smart Automation,30 September 2025
+81,Government of Kerala,Development of a travel related software app that can be installed on mobile phones that could capture trip related information,Software,SIH25082,100/500,Transportation & Logistics,30 September 2025
+82,Government of Kerala,"Digital Health Record Management System for migrant workers in Kerala aligned with sustainable development goals.",Software,SIH25083,59/500,MedTech / BioTech / HealthTech,30 September 2025
+83,Government of Kerala,Earthquake stabilised dialysis system for patient safety during seismic events.,Hardware,SIH25084,17/500,Disaster Management,30 September 2025
+84,Government of Kerala,"Solution for NON-REVENUE LOSS IN WATER SUPPLY Solution to improve AWARENESS IN WATER CONSERVATION TREATMENT OF WASTE WATER AND REUSE FOR DOMESTIC PURPOSES",Hardware,SIH25085,8/500,Miscellaneous,30 September 2025
+85,Government of Kerala,GREY WATER MANAGEMENT AND REUSE WET LAND MANAGEMENT WATER CONSERVATION,Hardware,SIH25090,33/500,Clean & Green Technology,30 September 2025
+86,Government of Jammu and Kashmir,AI-Based Timetable Generation System aligned with NEP 2020 for Multidisciplinary Education Structures,Software,SIH25091,31/500,Smart Automation,30 September 2025
+87,Government of Jammu and Kashmir,Development of a Digital Mental Health and Psychological Support System for Students in Higher Education,Software,SIH25092,291/500,MedTech / BioTech / HealthTech,30 September 2025
+88,Government of Jammu and Kashmir,Centralised Digital Platform for Comprehensive student activity record in HEIs,Software,SIH25093,47/500,Smart Education,30 September 2025
+89,Government of Jammu and Kashmir,One-Stop Personalized Career & Education Advisor,Software,SIH25094,172/500,Smart Education,30 September 2025
+90,Autodesk,"Research and redesign a sport equipment commonly found in sport industry and utilize Fusion software to reimagine its design. Students can use Fusion Features such as Generative Design, Topology Optimization, Additive Build etc. The redesigned component should showcase innovation, enhanced functionality, and improved efficiency, all while being optimized for 3D printing.",Hardware,SIH25095,8/500,Smart Education,30 September 2025
+91,Autodesk,"• Students are supposed to use Fusion software to generate NC code with machine details & tool library for any industrial component. • Students should possess technical skills in areas such as CAD/CAM software, G-code programming, toolpath optimization, and machining fundamentals. Additionally, their project ideas should demonstrate a viable solution to a real-world problem, ensuring feasibility and practicality in implementation.",Hardware,SIH25096,3/500,Smart Education,30 September 2025
+92,Autodesk,Research and develop a design on autonomous small precision focused machine for planting crops or weeding.,Software,SIH25097,6/500,Smart Education,30 September 2025
+93,Autodesk,"Students are tasked with designing a 4-story commercial office building using Revit Architecture and Revit Structure , ensuring effective integration between architectural and structural models in a BIM environment.(The size of the plot can be assumed by the students, all the dimensions wherever necessary can be assumed by students in mm units.)",Software,SIH25098,9/500,Smart Education,30 September 2025
+94,MathWorks India Pvt. Ltd.,"AI-powered monitoring of crop health, soil condition, and pest risks using multispectral/hyperspectral imaging and sensor data.",Software,SIH25099,55/500,Agriculture, FoodTech & Rural Development,30 September 2025
+95,MathWorks India Pvt. Ltd.,"Accelerating High-Fidelity Road Network Modeling for Indian Traffic Simulations.",Software,SIH25100,9/500,Transportation & Logistics,30 September 2025
+96,Government of Rajasthan,Remote classroom for rural colleges,Software,SIH25101,36/500,Smart Education,30 September 2025
+97,Government of Rajasthan,AI-based drop-out prediction and counseling system,Software,SIH25102,48/500,Smart Automation,30 September 2025
+98,Government of Rajasthan,ERP-based Integrated Student Management system,Software,SIH25103,29/500,Smart Automation,30 September 2025
+99,Government of Rajasthan,Language Agnostic Chatbot,Software,SIH25104,51/500,Smart Education,30 September 2025
+100,Government of Rajasthan,Hybrid Renewable Energy Generation Solution,Software,SIH25105,7/500,Clean & Green Technology,30 September 2025
+101,Government of Rajasthan,"Internship/Industrial Training with Placement Opportunity",Software,SIH25106,12/500,Smart Education,30 September 2025
+102,AICTE,"Develop computer programs (in any language, preferably Python) to identify the design principles behind the Kolam designs and recreate the kolams.",Software,SIH25107,44/500,Heritage & Culture,30 September 2025
+103,Ministry of Tribal Affairs(MoTA),"Development of AI-powered FRA Atlas and WebGIS-based Decision Support System (DSS) for Integrated Monitoring of Forest Rights Act (FRA) Implementation. (States to be concentrated: Madhya Pradesh, Tripura , Odisha, Telangana)",Software,SIH25108,31/500,Miscellaneous,15 October 2025
+104,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - Agriculture, FoodTech & Rural Development",Hardware,SIH25109,75/500,"Agriculture, FoodTech & Rural Development",30 September 2025
+105,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - Blockchain & Cybersecurity",Hardware,SIH25110,9/500,Blockchain & Cybersecurity,30 September 2025
+106,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - Clean & Green Technology",Hardware,SIH25111,49/500,Clean & Green Technology,30 September 2025
+107,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - Fitness & Sports",Hardware,SIH25112,8/500,Fitness & Sports,30 September 2025
+108,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - Heritage & Culture",Hardware,SIH25113,3/500,Heritage & Culture,30 September 2025
+109,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - MedTech / BioTech / HealthTech",Hardware,SIH25114,110/500,"MedTech / BioTech / HealthTech",30 September 2025
+110,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - Miscellaneous",Hardware,SIH25115,23/500,Miscellaneous,30 September 2025
+111,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - Renewable & Sustainable Energy",Hardware,SIH25116,64/500,"Renewable / Sustainable Energy",30 September 2025
+112,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - Robotics and Drones",Hardware,SIH25117,47/500,Robotics and Drones,30 September 2025
+113,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - Smart Automation",Hardware,SIH25118,70/500,Smart Automation,30 September 2025
+114,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - Smart Vehicles",Hardware,SIH25119,57/500,Smart Vehicles,30 September 2025
+115,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - Travel & Tourism",Hardware,SIH25120,11/500,Travel & Tourism,30 September 2025
+116,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - Transportation & Logistics",Hardware,SIH25121,15/500,"Transportation & Logistics",30 September 2025
+117,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - Disaster Management",Hardware,SIH25122,37/500,Disaster Management,30 September 2025
+118,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - Smart Education",Hardware,SIH25123,9/500,Smart Education,30 September 2025
+119,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - Toys & Games",Hardware,SIH25124,13/500,Toys & Games,30 September 2025
+120,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - Space Technology",Hardware,SIH25125,12/500,Space Technology,30 September 2025
+121,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - Agriculture, FoodTech & Rural Development",Software,SIH25126,72/500,"Agriculture, FoodTech & Rural Development",30 September 2025
+122,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - Blockchain & Cybersecurity",Software,SIH25127,49/500,Blockchain & Cybersecurity,30 September 2025
+123,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - Clean & Green Technology",Software,SIH25128,57/500,Clean & Green Technology,30 September 2025
+124,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - Fitness & Sports",Software,SIH25129,24/500,Fitness & Sports,30 September 2025
+125,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - Heritage & Culture",Software,SIH25130,41/500,Heritage & Culture,30 September 2025
+126,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - MedTech / BioTech / HealthTech",Software,SIH25131,130/500,"MedTech / BioTech / HealthTech",30 September 2025
+127,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - Miscellaneous",Software,SIH25132,73/500,Miscellaneous,30 September 2025
+128,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - Renewable & Sustainable Energy",Software,SIH25133,22/500,"Renewable / Sustainable Energy",30 September 2025
+129,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - Robotics and Drones",Software,SIH25134,14/500,Robotics and Drones,30 September 2025
+130,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - Smart Automation",Software,SIH25135,106/500,Smart Automation,30 September 2025
+131,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - Smart Vehicles",Software,SIH25136,18/500,Smart Vehicles,30 September 2025
+132,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - Travel & Tourism",Software,SIH25137,73/500,Travel & Tourism,30 September 2025
+133,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - Transportation & Logistics",Software,SIH25138,24/500,"Transportation & Logistics",30 September 2025
+134,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - Disaster Management",Software,SIH25139,32/500,Disaster Management,30 September 2025
+135,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - Smart Education",Software,SIH25140,84/500,Smart Education,30 September 2025
+136,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - Toys & Games",Software,SIH25141,19/500,Toys & Games,30 September 2025
+137,AICTE,"Student Innovation: Swadeshi for Atmanirbhar Bharat - Space Technology",Software,SIH25142,45/500,Space Technology,30 September 2025
+138,"Ministry of Social Justice & Empowerment(MoSJE)","Real-time based pressure measurement device to optimize orthotic design and patient outcomes.",Hardware,SIH25143,0/500,"MedTech / BioTech / HealthTech",15 October 2025
+139,"Ministry of Social Justice & Empowerment(MoSJE)","Smart Foldable Aluminium Axillary Crutch with IoT Integration for Enhanced Mobility and Rehabilitation",Hardware,SIH25144,1/500,"MedTech / BioTech / HealthTech",15 October 2025
+140,"Ministry of Social Justice & Empowerment(MoSJE)","Development of a Smart Blind Stick for Enhanced Mobility and Safety of Visually Impaired Persons",Hardware,SIH25145,10/500,"MedTech / BioTech / HealthTech",15 October 2025
+141,"Ministry of Social Justice & Empowerment(MoSJE)","Development of an Affordable and Functional Upper Limb Prosthetic Terminal Device for Partial Hand Amputees",Hardware,SIH25146,1/500,"MedTech / BioTech / HealthTech",15 October 2025
+142,"Ministry of Social Justice & Empowerment(MoSJE)","Compact and Portable Soft Insert Contouring Device for 3D-Printed Prosthetic Sockets",Hardware,SIH25147,0/500,"MedTech / BioTech / HealthTech",15 October 2025
+143,"Ministry of Social Justice & Empowerment(MoSJE)","Dextra: switch-controlled wrist-hand orthosis for enhanced functional independence",Hardware,SIH25148,1/500,"MedTech / BioTech / HealthTech",15 October 2025
+144,"Ministry of Social Justice & Empowerment(MoSJE)","Loan Utilization Tracking via Mobile",Software,SIH25149,5/500,Smart Automation,15 October 2025
+145,"Ministry of Social Justice & Empowerment(MoSJE)","Beneficiary Credit Scoring with Income Verification Layer for Direct Digital Lending",Software,SIH25150,1/500,Smart Automation,15 October 2025
+146,"Ministry of Social Justice & Empowerment(MoSJE)","Identification of Infrastructure, Amenities, and Service Gaps in SC-Majority Villages for Adarsh Gram Declaration",Software,SIH25151,0/500,Smart Automation,15 October 2025
+147,"Ministry of Social Justice & Empowerment(MoSJE)","Digital Mechanism for Beneficiary Identification under Grant- in-Aid (GIA) Component",Software,SIH25152,2/500,Smart Education,15 October 2025
+148,"Ministry of Social Justice & Empowerment(MoSJE)","Mapping of Implementing and Executing Agencies across PM- AJAY Components",Software,SIH25153,0/500,Smart Automation,15 October 2025
+149,"Ministry of Social Justice & Empowerment(MoSJE)","Modalities for implementation of Direct Benefit Transfer (DBT) under Centrally Sponsored Scheme for effective implemenation of PCR Act and PoA Act.",Software,SIH25154,0/500,Smart Automation,15 October 2025
+150,AICTE,"Transliterations tool for street signs",Software,SIH25155,1/500,Heritage & Culture,15 October 2025
+151,AICTE,"Instruments in observational Astronomy",Software,SIH25156,0/500,Heritage & Culture,15 October 2025
+152,AICTE,"Identify the mudras in Bharatiya natya forms",Software,SIH25157,1/500,Smart Education,15 October 2025
+153,AICTE,"Chandas Identifier",Software,SIH25158,0/500,Smart Education,15 October 2025
+154,AICTE,"Real-Time AI/ML-Based Phishing Detection and Prevention System.",Software,SIH25159,11/500,Blockchain & Cybersecurity,15 October 2025
+155,AICTE,"AI-Driven Next-Generation Firewall for Dynamic Threat Detection and Zero Trust Implementation",Software,SIH25160,6/500,Blockchain & Cybersecurity,15 October 2025
+156,AICTE,"Mitigating National Security Risks Posed by Large Language Models (LLMs) in AI-Driven Malign Information Operations",Software,SIH25161,4/500,Blockchain & Cybersecurity,15 October 2025
+157,"Bharat Electronics Limited(BEL)","Automated Optical Inspection (AOI) based IC marking to identify fake marking",Software,SIH25162,0/500,Smart Automation,15 October 2025
+158,"Bharat Electronics Limited(BEL)","Self-Healing Computing Elements",Software,SIH25163,2/500,Smart Automation,15 October 2025
+159,"Bharat Electronics Limited(BEL)","Designing an Efficient Algorithm for Coordinated Swarm Engagement among Autonomous Drones aiming to neutralize an adversarial drone swarm.",Software,SIH25164,1/500,Robotics and Drones,15 October 2025
+160,Government of Gujarat,"Temple & Pilgrimage Crowd Management (Somnath, Dwarka, Ambaji, Pavagadh)",Software,SIH25165,13/500,Heritage & Culture,15 October 2025
+161,Government of Gujarat,"Smart Sabarmati Riverfront & Urban Water Bodies",Hardware,SIH25166,1/500,Clean & Green Technology,15 October 2025
+162,Government of Chhattisgarh,"AI and IoT Powered Intelligent System for Real Time Elephant Movement Detection and Prevention of Human-Elephant Conflict (HEC) in Chhattisgarh State",Hardware,SIH25167,6/500,Smart Automation,15 October 2025
+163,"Ministry of Agriculture & Farmers Welfare (MoA&FW)","Enhancing farmer productivity through innovative technology solutions",Software,SIH25168,22/500,"Agriculture, FoodTech & Rural Development",15 October 2025
+164,"Indian Space Research Organisation (ISRO)","LunaBot: Autonomous Navigation of Robot for Lunar Habitats",Software,SIH25169,3/500,Space Technology,15 October 2025
+165,"Indian Space Research Organisation (ISRO)","Enhancing OpenAI’s GPT-OSS with Multimodal Vision Capabilities extensible to ISRO EO Data",Software,SIH25170,3/500,Space Technology,15 October 2025
+166,"Indian Space Research Organisation (ISRO)","Optical-Guided Super-Resolution for Thermal IR Imagery",Software,SIH25171,1/500,Space Technology,15 October 2025
+167,"Indian Space Research Organisation (ISRO)","Transformer based end-to-end Web Application Firewall (WAF) pipeline",Software,SIH25172,1/500,Blockchain & Cybersecurity,15 October 2025
+168,"Indian Space Research Organisation (ISRO)","Conversational SIEM Assistant for Investigation and Automated Threat Reporting using NLP",Software,SIH25173,2/500,Blockchain & Cybersecurity,15 October 2025
+169,"Indian Space Research Organisation (ISRO)","Neural Net based Android Application for Real-Time Fish Catch Identification, Health, and Volume Estimation",Software,SIH25174,2/500,Space Technology,15 October 2025
+170,"Indian Space Research Organisation (ISRO)","MAITRI : An AI Assistant for Psychological & Physical Well-Being of Astronauts",Software,SIH25175,7/500,Space Technology,15 October 2025
+171,"Indian Space Research Organisation (ISRO)","To develop AI/ML based models to predict time-varying patterns of the error build up between uploaded and modelled values of both satellite clock and ephemeris parameters of navigation satellites",Software,SIH25176,0/500,Space Technology,15 October 2025
+172,"Indian Space Research Organisation (ISRO)","Use of measurements from the mobile phones (low cost preferred) to provide a safe autonomous navigation on the roads",Software,SIH25177,1/500,Smart Vehicles,15 October 2025
+173,"Indian Space Research Organisation (ISRO)","Short term forecast of gaseous air pollutants (ground-level O3 and NO2) using satellite and reanalysis data",Software,SIH25178,2/500,Space Technology,15 October 2025
+174,"Indian Space Research Organisation (ISRO)","Quantum Secure Email Client Application",Software,SIH25179,5/500,Blockchain & Cybersecurity,15 October 2025
+175,"Ministry of Coal (MoC)","AI/ML based Auto Evaluation of R&D proposals received at NaCCER, CMPDI Ranchi",Software,SIH25180,0/500,Smart Automation,15 October 2025
+176,"Ministry of Coal (MoC)","Intelligent Mobile Safety Companion for Mine Workers",Software,SIH25181,7/500,Smart Education,15 October 2025
+177,"Ministry of Coal (MoC)","Smart PPE Compliance Monitoring and Reporting System for Underground Coal Mines",Hardware,SIH25182,3/500,Smart Automation,15 October 2025
+178,"Ministry of Defence (MoD)","AI enabled cyber incident & safety web portal for defence.",Software,SIH25183,9/500,Blockchain & Cybersecurity,15 October 2025
+179,"Ministry of Defence (MoD)","Secure closed group communication platform over exisiting public mobile communication networks for defence personnal and families.",Software,SIH25184,5/500,Blockchain & Cybersecurity,15 October 2025
+180,"Ministry of Development of North Eastern Region (MoDoNER)","Al-Powered DPR Quality Assessment and Risk Prediction System for MDoNER",Software,SIH25185,1/500,Smart Automation,15 October 2025
+181,"Ministry of Development of North Eastern Region (MoDoNER)","Design of a Sustainable, Low-Cost Geocell Road System for Landslide-Prone Rural Areas in North East India",Hardware,SIH25186,2/500,Disaster Management,15 October 2025
+182,"Ministry of Steel (MoS)","Hot metal and Steel Ladle Tracking by auto capturing the Ladle numbers and display its location",Hardware,SIH25187,0/500,Smart Automation,15 October 2025
+183,"Ministry of Steel (MoS)","Torpedo Ladle Container Position feedback and subsequent control of over tilting based on TLC balance Hot metal",Hardware,SIH25188,0/500,Smart Automation,15 October 2025
+184,"Ministry of Power (MoP)","AI-Based Dynamic Contact Resistance Measurement (DCRM) Analysis for EHV Circuit Breakers",Software,SIH25189,1/500,"Renewable / Sustainable Energy",15 October 2025
+185,"Ministry of Power (MoP)","AI-Driven Frequency Response Analysis for Transformer Diagnostics via Unified Multi-Format Software",Software,SIH25190,0/500,Clean & Green Technology,15 October 2025
+186,"Ministry of Power (MoP)","Development of AI/ML enabled Digital Twin for EHV 400/220 kV Substation",Software,SIH25191,1/500,Smart Automation,15 October 2025
+187,"Ministry of Power (MoP)","Predicting Project Costs and Timeline",Software,SIH25192,3/500,Smart Automation,15 October 2025
+188,"Ministry of Power (MoP)","Forecasting materials demand with machine learning for supply chain planning, procurement, and inventory optimization.",Software,SIH25193,0/500,Smart Automation,15 October 2025
+189,"Ministry of Power (MoP)","Intelligent Recommendation System for Personalized Individual Development Plans (IDPs)",Software,SIH25194,0/500,Smart Automation,15 October 2025
+190,"Ministry of Power (MoP)","Smart Helpdesk Ticketing Solution for IT Services",Software,SIH25195,2/500,Smart Automation,15 October 2025
+191,"Ministry of Home Affairs (MHA)","Surveillance during extreme weather condition",Hardware,SIH25196,3/500,Miscellaneous,15 October 2025
+192,"Ministry of Home Affairs (MHA)","Al and ML enabled video analysis and interpretation",Software,SIH25197,7/500,Miscellaneous,15 October 2025
+193,"Ministry of Home Affairs (MHA)","AI-based UFDR (Universal Forensic Extraction Device Report) Analysis Tool",Software,SIH25198,2/500,Smart Automation,15 October 2025
+194,"Ministry of Skill Development and Entrepreneurship (MSDE)","AI-Powered Personalized Learning Path Generator",Software,SIH25199,14/500,Smart Education,15 October 2025
+195,"Ministry of Skill Development and Entrepreneurship (MSDE)","Blockchain-Based Skill Credentialing System",Software,SIH25200,2/500,Smart Education,15 October 2025
+196,"Ministry of Skill Development and Entrepreneurship (MSDE)","IoT & AI-Enabled Skill Training Equipment monitoring",Software,SIH25201,2/500,Smart Education,15 October 2025
+197,"Ministry of Skill Development and Entrepreneurship (MSDE)","Micro-Credential Aggregator Platform",Software,SIH25202,1/500,Miscellaneous,15 October 2025
+198,"Ministry of Skill Development and Entrepreneurship (MSDE)","AI-Powered Multilingual Content Localization Engine for Skill Courses",Software,SIH25203,4/500,Miscellaneous,15 October 2025
+199,"Ministry of Earth Sciences (MoES)","Robotic Floating Hyperspectral Radiometer Platform for Monitoring Chlorophyll and Plastic Pollution in Aquatic Environments",Hardware,SIH25204,3/500,Smart Automation,15 October 2025
+200,Government of Odisha,"Cybersecurity Framework for Rural Digital Banking",Software,SIH25205,8/500,Blockchain & Cybersecurity,15 October 2025
+201,Ministry of Mines,"Application of EHS Simba drills for a safer, faster, and more efficient alternative to conventional pneumatic drilling in underground mining.",Hardware,SIH25206,0/500,Miscellaneous,15 October 2025
+202,Government of Jammu and Kashmir,"Prashiskshan - An app for Academia Industry Interface",Software,SIH25207,5/500,Smart Education,15 October 2025
+203,Ministry of Steel (MoS),"Design and develop an Al/ML-based Decision Support System for optimizing rake formation strategies for SAIL, with the initial implementation focused on movements from Bokaro Steel Plant to CMO stockyards and customer locations.",Software,SIH25208,1/500,Smart Automation,16 October 2025
+204,Ministry of Steel (MoS),"Al-Enabled Logistics Optimizer for Cost-Optimal Vessel Scheduling and Port-Plant Linkage in Steel Supply Chain",Software,SIH25209,0/500,Transportation & Logistics,16 October 2025
+205,Ministry of Steel (MoS),"Efficient Energy use in Iron Ore Mining Operations",Software,SIH25210,0/500,Miscellaneous,16 October 2025
+206,Ministry of Home Affairs (MHA),"Development of a Virtual Reality (VR) Simulator for Training in Chemical Disaster Response",Hardware,SIH25211,1/500,Disaster Management,16 October 2025
+207,Ministry of Home Affairs (MHA),"Structural Stability Assessment Tool for Collapsed Structures",Hardware,SIH25212,0/500,Disaster Management,16 October 2025
+208,Ministry of Home Affairs (MHA),"Integrated Wearable Device for Real-Time Monitoring of Vital Parameters, Gas Exposure, and Fatigue",Hardware,SIH25213,3/500,Disaster Management,16 October 2025
+209,Ministry of Home Affairs (MHA),"Development of Radar-Based Living Person Detection System for Use Under the Rubble",Hardware,SIH25214,7/500,Disaster Management,16 October 2025
+210,AICTE,"Low-Cost Decentralized Smart Air Purification & Monitoring System for Delhi-NCR",Hardware,SIH25215,6/500,Clean & Green Technology,16 October 2025
+211,AICTE,"AI-Driven Pollution Source Identification, Forecasting & Policy Dashboard for Delhi-NCR",Software,SIH25216,7/500,Clean & Green Technology,16 October 2025
+212,Ministry of Defence (MoD),"Cognitive Opportunistic LEO-PNT Receiver System",Hardware,SIH25217,1/500,Space Technology,16 October 2025
+213,Ministry of Science and Technology,"Screening Tool for Early Detection of Neurological Conditions",Hardware,SIH25218,2/500,MedTech / BioTech / HealthTech,17 October 2025
+214,Ministry of Science and Technology,"Mobile-based EHR Companion for ASHA Workers in Low-Internet Areas",Software,SIH25219,8/500,MedTech / BioTech / HealthTech,17 October 2025
+215,Ministry of Science and Technology,"Digital Contact Tracing and Screening Tool for MDR Pathogens in Hospitals",Software,SIH25220,1/500,MedTech / BioTech / HealthTech,17 October 2025
+216,Ministry of Science and Technology,"VR + Eye-Tracking Solution to Capture Customer Reactions for EV Product Design",Hardware,SIH25221,0/500,Smart Vehicles,17 October 2025
+217,Ministry of Science and Technology,"Digital Twin for CO₂ Capture in Urban Settings",Software,SIH25222,2/500,Clean & Green Technology,17 October 2025
+218,Ministry of Science and Technology,"Rare-Earth-Free High-Efficiency Motors",Hardware,SIH25223,0/500,Clean & Green Technology,17 October 2025
+219,Ministry of Science and Technology,"Stealth Coating for Defense Assets",Hardware,SIH25224,1/500,Robotics and Drones,17 October 2025
+220,Ministry of Science and Technology,"Low-Cost Hydrogen Storage Cylinder",Hardware,SIH25225,2/500,Clean & Green Technology,17 October 2025
+221,Ministry of Science and Technology,"AI Tool for Early-Stage Dementia Detection",Software,SIH25226,6/500,MedTech / BioTech / HealthTech,17 October 2025
+222,Ministry of Science and Technology,"Cloudburst Early Warning and Alarm System",Hardware,SIH25227,3/500,Disaster Management,17 October 2025
+223,National Technical Research Organisation (NTRO),"Cryptocurrency address collection and categorization system",Software,SIH25228,2/500,Blockchain & Cybersecurity,17 October 2025
+224,National Technical Research Organisation (NTRO),"Identification of URL based attacks from IP data",Software,SIH25229,7/500,Blockchain & Cybersecurity,17 October 2025
+225,National Technical Research Organisation (NTRO),"Identification and protection of Virtual Network Computing (VNC) based data exfiltration attacks.",Software,SIH25230,0/500,Blockchain & Cybersecurity,17 October 2025
+226,National Technical Research Organisation (NTRO),"Design and build a multimodel Retrieval-Augmented Generation (RAG) system leveraging a Large Language Model (LLM) for OFFLINE mode that can ingest, index, and query diverse data formats such as DOC, PDF, Images and voice recordings within a unified semantic retrieval framework",Software,SIH25231,5/500,Smart Automation,17 October 2025
+227,National Technical Research Organisation (NTRO),"Detection of Open Crust Mining Activity and 3D visualization",Software,SIH25232,1/500,Smart Automation,17 October 2025
+228,National Technical Research Organisation (NTRO),"Automated Vulnerability Assessment and Penetration Testing tool for CCTV cameras & DVRs",Software,SIH25233,0/500,Smart Automation,17 October 2025
+229,National Technical Research Organisation (NTRO),"Centralized Vulnerability Detection and Intelligent Query Interface",Software,SIH25234,0/500,Smart Automation,17 October 2025
+230,National Technical Research Organisation (NTRO),"Portable log analysis tool for isolated network.",Software,SIH25235,2/500,Smart Automation,17 October 2025
+231,National Technical Research Organisation (NTRO),"Application software to obfuscate the object file using Low Level Virtual Machine (LLVM)",Software,SIH25236,0/500,Blockchain & Cybersecurity,17 October 2025
+232,National Technical Research Organisation (NTRO),"Multi-Platform System Hardening Tool",Software,SIH25237,0/500,Blockchain & Cybersecurity,17 October 2025
+233,National Technical Research Organisation (NTRO),"Development of Threat rules in ELK Stack (Elasticsearch, Logstash, and Kibana) for detecting Advanced Persistent Threats (APTs).",Software,SIH25238,0/500,Blockchain & Cybersecurity,17 October 2025
+234,National Technical Research Organisation (NTRO),"AI/ML-Based Identification of Cryptographic Primitives and Protocols in Multi-Architecture Firmware Binaries",Software,SIH25239,0/500,Blockchain & Cybersecurity,17 October 2025
+235,National Technical Research Organisation (NTRO),"AI/ML based text-to-text machine translation from Nepalese and Sinhalese to English",Software,SIH25240,6/500,Heritage & Culture,17 October 2025
+236,Ministry of Jal Shakti (MoJS),"Empowering Gram Panchayats to manage daily Operation & Maintenance (O&M) of Rural Piped Water Supply Systems using low-cost digital tools for routine monitoring.",Software,SIH25241,7/500,Clean & Green Technology,17 October 2025
+237,Ministry of Defence (MoD),"Deep learning based ALM (Audio Language Model), which Listen, Think, and Understand the speech and non-speech Together.",Software,SIH25242,2/500,Smart Automation,17 October 2025
+238,Ministry of Defence (MoD),"AI-Based Underwater Image Enhancement System for Increased Maritime Security.",Software,SIH25243,2/500,Smart Automation,17 October 2025
+239,Ministry of Defence (MoD),"User and Entity Behaviour Analytics (UEBA) for internal threat identification",Software,SIH25244,4/500,Blockchain & Cybersecurity,17 October 2025
+240,Ministry of Defence (MoD),"Automated Comprehensive Technology Intelligence and Forecasting Platform",Software,SIH25245,8/500,Smart Automation,17 October 2025

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Product Filter</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; display: grid; place-content: center; min-height: 100vh; text-align: center; background-color: #f0f2f5; }
+        #product-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 1.5rem; }
+        .product-item { padding: 1rem; border: 1px solid #ddd; border-radius: 8px; background: #fff; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .product-item.hide { display: none; }
+        #category-filter { padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid #ccc; font-size: 1rem; }
+    </style>
+</head>
+<body>
+
+    <h1>Our Products</h1>
+    
+    <select id="category-filter">
+        <option value="all">All</option>
+        <option value="electronics">Electronics</option>
+        <option value="apparel">Apparel</option>
+        <option value="footwear">Footwear</option>
+    </select>
+
+    <div id="product-list">
+        <div class="product-item" data-category="electronics">Laptop</div>
+        <div class="product-item" data-category="apparel">T-Shirt</div>
+        <div class="product-item" data-category="footwear">Sneakers</div>
+        <div class="product-item" data-category="electronics">Smartphone</div>
+        <div class="product-item" data-category="apparel">Jeans</div>
+        <div class="product-item" data-category="footwear">Boots</div>
+    </div>
+
+    <script>
+        document.getElementById('category-filter').addEventListener('change', function() {
+            const selectedCategory = this.value;
+            document.querySelectorAll('.product-item').forEach(item => {
+                const itemCategory = item.getAttribute('data-category');
+                // The core logic to hide or show items
+                const shouldHide = selectedCategory !== 'all' && selectedCategory !== itemCategory;
+                item.classList.toggle('hide', shouldHide);
+            });
+        });
+    </script>
+
+</body>
+</html>
