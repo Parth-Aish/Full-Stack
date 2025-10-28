@@ -1,0 +1,119 @@
+
+--- Slide 1 ---
+
+      
+
+
+
+
+
+DISCOVER . LEARN . EMPOWER
+
+
+APEX INSTITUTE OF TECHNOLOGY (CSE)
+DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING
+
+Predictive Analytics (23CSH-335) 
+Faculty: Dr. Alankrita Aggarwal
+ Professor
+(E14496)
+
+--- Slide 2 ---
+
+
+
+COURSE OBJECTIVES 
+
+--- Slide 3 ---
+
+
+
+COURSE OUTCOMES 
+On completion of this course, the students shall be able to
+
+--- Slide 4 ---
+
+Histogram
+
+--- Slide 5 ---
+
+What Is Histogram?
+It is a representation of a frequency distribution by means of rectangles whose widths represent class intervals and whose areas are proportional to the corresponding frequencies.
+It Looks like
+
+
+
+--- Slide 6 ---
+
+Mathematical Definition
+In a more general mathematical sense, a histogram is a function mi that counts the number of observations that fall into each of the disjoint categories (known as bins).
+let n be the total number of observations and k be the total number of bins, the histogram mi meets the following conditions:
+
+
+
+--- Slide 7 ---
+
+When Are Histograms Used?
+Summarize large data sets graphically
+Compare measurements to specifications
+Communicate information to the team
+Assist in decision making
+
+--- Slide 8 ---
+
+What are the parts of a Histogram?
+Histogram is made up of five parts:
+Title:
+The title briefly describes the information that is  contained in the Histogram.
+Horizontal or X-Axis:
+The horizontal or X-axis shows you the scale of values into which the measurements fit.
+Bars:
+The bars have two important characteristics—height and width. The height represents the number of times the values within an interval occurred. The width represents the length of the interval covered by the bar. It is the same for all bars.
+
+--- Slide 9 ---
+
+Continue.
+Vertical or Y-Axis:
+The vertical or Y-axis is the scale that shows you the number of times the values within an interval occurred. The number of times is also referred to as "frequency.“
+Legend:
+The legend provides additional information that documents where the data came from and how the measurements were gathered
+
+--- Slide 10 ---
+
+
+--- Slide 11 ---
+
+Steps of Histogram
+Step 1 - Count number of data points
+Step 2 - Summarize on a tally sheet
+Step 3 - Compute the range
+Step 4 - Determine number of intervals
+Step 5 - Compute interval width
+Step 6 - Determine interval starting points
+Step 7 - Count number of points in each interval
+Step 8 - Plot the data
+Step 9 - Add title and legend
+
+--- Slide 12 ---
+
+Simple Example-1 
+ Consider the following set for example
+     {1,2,2,3,3,3,3,4,4,5,6}
+ we can graph them like this:
+
+     
+
+--- Slide 13 ---
+
+Simple Example-2
+Consider the set {3, 11, 12, 19, 22, 23, 24, 25, 27, 29, 35, 36, 37, 45, 49}
+Instead of bin the data are converted into convenient ranges. 
+In this case, with a bin width of 10, we can easily group the data as below & we can construct histogram as below
+
+
+
+
+--- Slide 14 ---
+
+
+Thank You

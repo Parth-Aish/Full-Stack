@@ -1,0 +1,89 @@
+
+--- Slide 1 ---
+
+TOPIC -6 - IMPROVING EFFICIENCY 
+Using SQL (Structured Query Language) Pushback:
+SQL pushback is a technique used in data integration and processing where some computation or filtering logic is delegated to the underlying database system through SQL queries. 
+This reduces the amount of data transferred between the database and the application, improving overall performance. 
+ 
+
+--- Slide 2 ---
+
+EXAMPLE
+Instead of fetching a large dataset into memory and then filtering it using application code, SQL pushback allows specifying conditions directly in SQL queries to retrieve only the necessary data rows.
+
+
+--- Slide 3 ---
+
+Previewing SQL
+Previewing SQL involves examining the results of a SQL query before executing it fully. This is helpful in optimizing queries and ensuring they return the expected results without unnecessary computations. 
+
+--- Slide 4 ---
+
+EXAMPLE
+In a data analysis tool, previewing SQL queries allows analysts to check if the query filters and joins are correctly specified before running them against the entire dataset.
+
+
+--- Slide 5 ---
+
+Identifying A-Typical Values
+A-typical values, also known as outliers, are data points that significantly deviate from the majority of the data. Identifying these values is crucial as they can skew statistical analyses and machine learning models. Techniques such as box plots, z-score analysis, or domain knowledge can be used to detect outliers. 
+For example, in financial data analysis, detecting unusually large transactions compared to typical spending patterns helps in identifying potential fraud cases.
+
+
+--- Slide 6 ---
+
+
+--- Slide 7 ---
+
+Processing Missing Values
+Missing values are gaps in datasets that can arise due to various reasons such as data entry errors or incomplete records. 
+Handling missing values is essential to avoid biased analysis or modelling results. 
+Common approaches include removing records with missing values, imputing missing values using statistical methods (e.g., mean, median, mode imputation), or using machine learning algorithms to predict missing values based on other features. 
+
+
+--- Slide 8 ---
+
+Imputing Missing Values
+Imputing missing values involves replacing them with estimated values based on the available data. 
+For instance, in a dataset containing customer information where some entries lack age information, imputing the missing ages using the average age of customers with known ages can help maintain data integrity and usability.
+
+
+--- Slide 9 ---
+
+Using Global
+Global refer to global variables or settings that can be defined once and used across different parts of a program or script. 
+They help streamline coding by centralizing configurations or constants.
+ In a scripting environment, using global variables for file paths or database connection settings ensures consistency and simplifies maintenance.
+
+--- Slide 10 ---
+
+
+--- Slide 11 ---
+
+Using Parameters
+Parameters are variables that can be passed into functions, scripts, or queries to customize their behaviour or output. They enhance flexibility and reusability of code. 
+For instance, in SPSS, using parameters allows executing the same query with different filter conditions or sorting criteria without rewriting the entire query
+
+
+--- Slide 12 ---
+
+Creating a bar chart using SPSS Statistics - Setting up the correct chart with your Parameters
+
+--- Slide 13 ---
+
+Using Conditional Execution and Looping
+Conditional execution and looping are programming constructs that allow executing specific blocks of code based on certain conditions or iterating over a set of instructions multiple times. 
+In data processing tasks, conditional execution ensures that different actions are taken based on data characteristics (e.g., skipping invalid records), while looping facilitates repetitive tasks (e.g., processing each row in a dataset).
+
+
+--- Slide 14 ---
+
+TYPES OF LOOP 
+
+--- Slide 15 ---
+
+
+--- Slide 16 ---
+
+THANKYOU

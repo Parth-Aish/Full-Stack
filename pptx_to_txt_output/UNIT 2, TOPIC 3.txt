@@ -1,0 +1,96 @@
+
+--- Slide 1 ---
+
+TOPIC 3 - DATA TRANSFORMATIONS
+Data transformations are essential steps in preparing data for analysis. They involve selecting appropriate methods to alter data to improve its structure, enhance interpretability, and meet the requirements of analytical models.
+Selecting a Method to Transform Data
+Choosing a method to transform data depends on the analysis objectives, data characteristics, and the requirements of downstream processes. 
+Common transformation method include:
+Normalization
+BINNING FIELDS
+Filling FIELDS
+
+
+--- Slide 2 ---
+
+Normalization
+It rescales data to a range (usually 0 to 1), making it suitable for machine learning algorithms that are sensitive to the scale of input features. 
+This transformation is particularly useful when the data features have different scales and units, allowing them to be comparable.
+Normalization is achieved by subtracting the minimum value of the feature and dividing by the range (maximum minus minimum):
+
+
+--- Slide 3 ---
+
+EXAMPLE 
+Example: If we have a dataset of house prices ranging from $50,000 to $500,000, normalization scales these prices to a 0-1 range. For instance, a house priced at $200,000 would be normalized to:
+
+--- Slide 4 ---
+
+Filling Fields
+Filling fields involves handling missing data by substituting missing values with plausible estimates. Techniques include imputation with mean, median, mode.
+For instance, 
+
+
+--- Slide 5 ---
+
+Binning Fields
+Binning fields, or discretization - Involves grouping continuous data into discrete bins or intervals. 
+This transformation simplifies the data and can highlight patterns not visible in raw continuous data. 
+Binning can also smooth noisy data and enhance the interpretability of predictive models.
+Sorted data for price (in dollars): 4, 8, 9, 15, 21, 21, 24, 25, 26, 28, 29, 34
+
+
+
+--- Slide 6 ---
+
+*  Partition into equal-frequency (equi-depth) bins:
+      - Bin 1: 4, 8, 9, 15
+      - Bin 2: 21, 21, 24, 25
+      - Bin 3: 26, 28, 29, 34
+*  Smoothing by bin means:
+      - Bin 1: 9, 9, 9, 9
+      - Bin 2: 23, 23, 23, 23
+      - Bin 3: 29, 29, 29, 29
+*  Smoothing by bin boundaries:
+      - Bin 1: 4, 4, 4, 15
+      - Bin 2: 21, 21, 25, 25
+      - Bin 3: 26, 26, 26, 34
+
+
+--- Slide 7 ---
+
+Data Transformations
+Data transformations encompass a broad range of techniques applied to modify data. 
+
+--- Slide 8 ---
+
+DATA SMOOTHING
+Data smoothing is a technique used to reduce noise and variability in data, making trends, patterns, and signals more apparent. It is particularly useful in time series analysis, data visualization, and preprocessing for machine learning to enhance the quality of insights derived from the data.
+
+--- Slide 9 ---
+
+ATTRIBUTE CONSTRUCTION 
+Attribute Construction (also known as Feature Engineering) is a critical process in data preprocessing where new attributes or features are created from the existing data to improve the performance of machine learning models or facilitate better data analysis. This process transforms raw data into a more meaningful form, often leading to improved model accuracy and insight discovery.
+APPLICATIONS
+Selecting a Method to Transform Data
+Filling Fields
+Binning Fields
+Data Transformations
+
+--- Slide 10 ---
+
+
+
+--- Slide 11 ---
+
+
+Replacing specific values with more general categories or concepts.
+Data generalization
+
+--- Slide 12 ---
+
+Data Discretization
+
+--- Slide 13 ---
+
+THANKYOU

@@ -1,0 +1,433 @@
+
+--- Slide 1 ---
+
+      
+
+
+
+
+
+
+DISCOVER . LEARN . EMPOWER
+
+
+APEX INSTITUTE OF TECHNOLOGY (CSE)
+DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING
+
+Predictive Analytics (23CSH-335 )
+Faculty: Dr. Alankrita Aggarwal
+Professor (E14496)
+
+
+--- Slide 2 ---
+
+
+
+COURSE OBJECTIVES 
+
+--- Slide 3 ---
+
+
+
+COURSE OUTCOMES 
+On completion of this course, the students shall be able to
+
+--- Slide 4 ---
+
+UNIT 2TOPIC 1 - DERIVING AND  RECLASSIFYING  FIELDS
+Methods to Create Fields
+Creating fields involves generating new variables or columns within a dataset, which are derived from existing data through various operations. These methods often include mathematical transformations, aggregations, and string manipulations. 
+For instance, in a dataset containing sales data, you might create a field for "profit" by subtracting "cost" from "revenue."
+
+
+--- Slide 5 ---
+
+Creating such fields helps in enhancing data analysis, enabling more detailed and focused insights. 
+For example, transforming a "date" field to derive a "weekday" field can help in identifying trends based on days of the week, which can be crucial for retail or service businesses.
+
+--- Slide 6 ---
+
+Introducing the Control Language for Expression Manipulation (CLEM)
+CLEM (Control Language for Expression Manipulation) is a scripting language used for data transformation, manipulation, and derivation in data mining and data preparation environments. 
+
+It provides a robust set of functions and expressions to derive new fields, perform conditional operations, and reclassify data.
+
+--- Slide 7 ---
+
+For example, in a predictive analytics project, CLEM can be used to create a field that predicts customer churn based on existing customer behavior data. 
+A simple CLEM expression could be used to flag high-risk customers.
+
+
+IF(last_purchase > 180, "High Risk", "Low Risk"). 
+This condition checks the number of days since the 
+last purchase and classifies the customers accordingly, 
+aiding in targeted retention strategies.
+
+--- Slide 8 ---
+
+Deriving Fields and Blanks
+Deriving fields involves calculating new data points from existing ones using various operations such as arithmetic calculations, logical comparisons, or text processing. 
+This process can also handle blank values, often using methods like imputation or default assignments. 
+
+--- Slide 9 ---
+
+For example, in an employee database, you might derive a "full_name" field by concatenating 
+"first_name" and "last_name."
+ If either of these fields is blank, a CLEM expression could fill it with a default value or
+     an indication like "Unknown."
+Suppose you have a dataset with "salary" data, and some entries are missing. 
+You could derive a "normalized_salary" field where blanks are filled with the average salary:
+ IFNULL(salary, AVG(salary)). This approach ensures that analyses like salary distribution are more complete and accurate.
+
+--- Slide 10 ---
+
+
+--- Slide 11 ---
+
+CLEM – COMMAND 
+IFNULL(salary, AVG(salary))
+
+--- Slide 12 ---
+
+Reclassifying Fields
+
+
+
+
+
+
+
+
+
+Reclassifying fields involves changing the values of a field to new, 
+often categorical values based on specific criteria. 
+
+This is useful for simplifying complex data and making it more interpretable. 
+
+For instance, in a dataset of customer transactions, a numeric "spending_amount" 
+field could be reclassified into categories like "Low," "Medium," and "High" spending. 
+A CLEM expression for this might look like:
+
+ IF(spending_amount < 100, "Low", IF(spending_amount < 500, "Medium", "High")).
+ 
+This reclassification helps in segmenting customers for targeted marketing strategies. 
+
+--- Slide 13 ---
+
+
+--- Slide 14 ---
+
+Checking Your Results
+After deriving and reclassifying fields, it’s crucial to validate the results to ensure accuracy and reliability. This involves verifying that the new fields accurately reflect the intended calculations or classifications and that there are no errors or inconsistencies. 
+
+--- Slide 15 ---
+
+For example, if you derived a "profit_margin" field by dividing "profit" by "revenue," you should check that the field does not include any values greater than 1 or less than 0, as these would indicate errors in the data or calculations. Additionally, you might use summary statistics or visualizations to inspect the distribution and consistency of the newly created or reclassified fields. 
+
+--- Slide 16 ---
+
+CLEM COMMAND –
+IF(OR(D2<0,D2>1),"Error", "")
+
+--- Slide 17 ---
+
+CLEM COMMAND –
+IF(OR(D2<0,D2>1),"Error", "")
+
+--- Slide 18 ---
+
+Deriving and Reclassifying Fields
+
+--- Slide 19 ---
+
+Derive Node
+The Derive node modifies data values or creates new fields from one or more existing fields. It creates fields of type formula, flag, nominal, state, count, and conditional. The Reclassify node transforms one set of categorical values to another. Reclassification is useful for collapsing categories or regrouping data for analysis.
+https://www.youtube.com/watch?v=B0dbVbVrGhw
+https://www.ibm.com/docs/en/spss-modeler/saas?topic=node-deriving-multiple-fields
+https://www.ibm.com/docs/en/spss-modeler/saas?topic=nodes-reclassify-node
+
+
+--- Slide 20 ---
+
+Table of Contents
+Methods To Create Fields
+Introducing The Control Language For Expression Manipulation(Clem)
+Deriving fields And Blanks
+Reclassifying Fields
+Checking Your Results.
+
+
+
+--- Slide 21 ---
+
+Objectives
+At the end of this module, you should be able to:
+use the Control Language for Expression Manipulation (CLEM)
+derive new fields
+reclassify field values
+
+--- Slide 22 ---
+
+
+
+
+--- Slide 23 ---
+
+Methods to Create Fields
+Derive
+Reclassify
+
+--- Slide 24 ---
+
+Introducing the Control Language for Expression Manipulation (CLEM)
+CLEM is often used in specific computational environments like SAS (Statistical Analysis System) to visually represent data processing workflows. These workflows typically involve manipulating and analyzing data using a series of connected nodes representing different operations.
+MODELER’s native language to build expressions
+Derive node, Select node use CLEM
+Refer to the online Help for a full discussion of CLEM
+
+
+--- Slide 25 ---
+
+
+CLEM expressions are indispensable for data preparation in IBM SPSS Modeler and can be used in a wide range of nodes—from record and field operations (Select, Balance, Filler) to plots and output (Analysis, Report, Table). For example, you can use CLEM in a Derive node to create a new field based on a formula such as ratio.
+
+--- Slide 26 ---
+
+Introducing CLEM Expressions
+
+--- Slide 27 ---
+
+Explore the Expression Builder Dialog Box
+
+--- Slide 28 ---
+
+Deriving Fields
+Create new fields
+Use the Derive node (Field Ops)
+Derive types:
+Formula
+Flag
+Nominal
+Conditional
+
+
+--- Slide 29 ---
+
+Explore the Derive Dialog Box
+
+--- Slide 30 ---
+
+Deriving Fields and Blanks
+Derived Fields
+
+
+--- Slide 31 ---
+
+
+
+
+
+--- Slide 32 ---
+
+
+
+--- Slide 33 ---
+
+
+
+--- Slide 34 ---
+
+
+
+--- Slide 35 ---
+
+
+
+--- Slide 36 ---
+
+
+
+--- Slide 37 ---
+
+
+
+
+
+--- Slide 38 ---
+
+
+
+
+
+--- Slide 39 ---
+
+
+
+
+
+--- Slide 40 ---
+
+
+
+
+
+--- Slide 41 ---
+
+
+
+
+
+--- Slide 42 ---
+
+
+
+--- Slide 43 ---
+
+Reclassifying Fields
+Recode the values of a categorical field into broader categories
+Use the Reclassify node (Field Ops)
+
+
+--- Slide 44 ---
+
+Explore the Reclassify Dialog Box
+
+--- Slide 45 ---
+
+Add Fields to the Same Branch
+
+--- Slide 46 ---
+
+Checking Your Results
+Preview the data, or run a Table node
+Use a Matrix node
+Use an Aggregate node
+Run a Data Audit
+
+
+--- Slide 47 ---
+
+Summary
+At the end of this module, you should be able to:
+use the Control language for Expression Manipulation (CLEM)
+derive new fields
+reclassify field values
+
+
+--- Slide 48 ---
+
+
+
+--- Slide 49 ---
+
+
+
+--- Slide 50 ---
+
+
+
+--- Slide 51 ---
+
+
+
+--- Slide 52 ---
+
+
+
+--- Slide 53 ---
+
+
+
+--- Slide 54 ---
+
+
+
+--- Slide 55 ---
+
+
+
+--- Slide 56 ---
+
+
+
+--- Slide 57 ---
+
+
+
+--- Slide 58 ---
+
+
+
+--- Slide 59 ---
+
+
+
+--- Slide 60 ---
+
+
+
+--- Slide 61 ---
+
+
+
+--- Slide 62 ---
+
+
+
+--- Slide 63 ---
+
+
+
+--- Slide 64 ---
+
+
+
+--- Slide 65 ---
+
+
+
+--- Slide 66 ---
+
+
+
+--- Slide 67 ---
+
+
+
+--- Slide 68 ---
+
+
+
+--- Slide 69 ---
+
+
+
+--- Slide 70 ---
+
+
+
+--- Slide 71 ---
+
+
+
+--- Slide 72 ---
+
+
+
+--- Slide 73 ---
+
+   REFERENCES
+
+
+
+
+
+
+--- Slide 74 ---
+
+ 
+THANK YOU
+
+
+For queries
+Email: alankrita.e14496@cumail.in

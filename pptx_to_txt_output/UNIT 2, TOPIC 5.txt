@@ -1,0 +1,318 @@
+
+--- Slide 1 ---
+
+Topic – 5 - SAMPLING RECORDS
+When you conduct research about a group of people, it’s rarely possible to collect data from every person in that group. Instead, you select a sample. The sample is the group of individuals who will actually participate in the research.
+To draw valid conclusions from your results, you have to carefully decide how you will select a sample that is representative of the group as a whole. This is called a sampling method.
+
+--- Slide 2 ---
+
+Topic – 5 - SAMPLING RECORDS
+Two primary types of sampling methods that you can use in your research:
+Probability sampling involves random selection, allowing you to make strong statistical inferences about the whole group.
+Non-probability sampling involves non-random selection based on convenience or other criteria, allowing you to easily collect data.
+
+--- Slide 3 ---
+
+Topic – 5 - POPULATION vS SAMPLE
+First, you need to understand the difference between a population and a sample, and identify the target population of your research.
+The population is the entire group that you want to draw conclusions about.
+The sample is the specific group of individuals that you will collect data from.
+The population can be defined in terms of geographical location, age, income, or many other characteristics.
+
+--- Slide 4 ---
+
+
+--- Slide 5 ---
+
+Topic – 5 - Examples of SAMPLING 
+It can be very broad or quite narrow: maybe you want to make inferences about the whole adult population of your country; 
+Maybe your research focuses on customers of a certain company, patients with a specific health condition, or students in a single school.
+It is important to carefully define your target population according to the purpose and practicalities of your project.
+
+--- Slide 6 ---
+
+Topic – 5 - Examples of SAMPLING 
+If the population is very large, demographically mixed, and geographically dispersed, it might be difficult to gain access to a representative sample. A lack of a representative sample affects the validity of your results, and can lead to several research biases, particularly sampling bias.
+
+--- Slide 7 ---
+
+Topic – 5 - SAMPLING FRAME
+The sampling frame is the actual list of individuals that the sample will be drawn from. Ideally, it should include the entire target population (and nobody who is not part of that population).
+
+--- Slide 8 ---
+
+Topic – 5 - SAMPLING FRAME
+The sampling frame is the actual list of individuals that the sample will be drawn from. Ideally, it should include the entire target population (and nobody who is not part of that population).
+
+--- Slide 9 ---
+
+Topic – 5 - EXAMPLE -SAMPLING FRAME
+You are doing research on working conditions at a social media marketing company. Your population is all 1000 employees of the company. Your sampling frame is the company’s HR database, which lists the names and contact details of every employee.
+
+--- Slide 10 ---
+
+Topic – 5 - SAMPLE SIZE
+The number of individuals you should include in your sample depends on various factors, including the size and variability of the population and your research design. There are different sample size calculators and formulas depending on what you want to achieve with statistical analysis.
+
+--- Slide 11 ---
+
+Topic – 5 - pROBABILITY SAMPLING METHODS
+Probability sampling means that every member of the population has a chance of being selected. It is mainly used in quantitative research. If you want to produce results that are representative of the whole population, probability sampling techniques are the most valid choice.
+
+--- Slide 12 ---
+
+
+--- Slide 13 ---
+
+Topic – 5 - SAMPLING RECORDS
+Sampling is the process of selecting a subset of data from a larger dataset to infer conclusions about the whole population. 
+The choice of sampling method depends on the nature of the data and the research objectives. 
+Common sampling methods include simple random sampling, systematic sampling, stratified sampling, and cluster sampling.
+ For example, in market research, a company might use simple random sampling to select households from a city to survey their preferences on a new product.
+
+
+--- Slide 14 ---
+
+TYPES OF SAMPLING METHODS.
+
+--- Slide 15 ---
+
+RANDOM SAMPLING.
+
+--- Slide 16 ---
+
+RANDOM SAMPLING.
+In a simple random sample, every member of the population has an equal chance of being selected. Your sampling frame should include the whole population.
+
+To conduct this type of sampling, you can use tools like random number generators or other techniques that are based entirely on chance.
+
+--- Slide 17 ---
+
+RANDOM SAMPLING.
+In a simple random sample, every member of the population has an equal chance of being selected. Your sampling frame should include the whole population.
+
+To conduct this type of sampling, you can use tools like random number generators or other techniques that are based entirely on chance.
+
+--- Slide 18 ---
+
+RANDOM SAMPLING.
+Example: Simple random sampling
+You want to select a simple random sample of 1000 employees of a social media marketing company. You assign a number to every employee in the company database from 1 to 1000, and use a random number generator to select 100 numbers.
+
+--- Slide 19 ---
+
+RANDOM SAMPLING.
+Example: Simple random sampling
+You want to select a simple random sample of 1000 employees of a social media marketing company. You assign a number to every employee in the company database from 1 to 1000, and use a random number generator to select 100 numbers.
+
+--- Slide 20 ---
+
+SYSTEMATIC SAMPLING.
+Systematic sampling is similar to simple random sampling, but it is usually slightly easier to conduct. Every member of the population is listed with a number, but instead of randomly generating numbers, individuals are chosen at regular intervals.
+
+--- Slide 21 ---
+
+SYSTEMATIC SAMPLING.
+Systematic sampling is similar to simple random sampling, but it is usually slightly easier to conduct. Every member of the population is listed with a number, but instead of randomly generating numbers, individuals are chosen at regular intervals.
+
+--- Slide 22 ---
+
+EXAMPLE :SYSTEMATIC SAMPLING.
+All employees of the company are listed in alphabetical order. From the first 10 numbers, you randomly select a starting point: number 6. From number 6 onwards, every 10th person on the list is selected (6, 16, 26, 36, and so on), and you end up with a sample of 100 people.
+
+--- Slide 23 ---
+
+SYSTEMATIC SAMPLING. 
+
+--- Slide 24 ---
+
+SYSTEMATIC SAMPLING. 
+
+--- Slide 25 ---
+
+ Stratified sampling
+Stratified sampling involves dividing the population into subpopulations that may differ in important ways. It allows you draw more precise conclusions by ensuring that every subgroup is properly represented in the sample.
+
+To use this sampling method, you divide the population into subgroups (called strata) based on the relevant characteristic (e.g., gender identity, age range, income bracket, job role).
+
+Based on the overall proportions of the population, you calculate how many people should be sampled from each subgroup. Then you use random or systematic sampling to select a sample from each subgroup.
+
+--- Slide 26 ---
+
+ eXAMPLE:Stratified sampling
+The company has 800 female employees and 200 male employees. You want to ensure that the sample reflects the gender balance of the company, so you sort the population into two strata based on gender. Then you use random sampling on each group, selecting 80 women and 20 men, which gives you a representative sample of 100 people.
+
+--- Slide 27 ---
+
+STRATIFIED SAMPLING.
+
+--- Slide 28 ---
+
+EXAMPLE OF SYSTEMATIC SAMPLING.
+
+--- Slide 29 ---
+
+CLUSTER SAMPLING.
+Cluster sampling also involves dividing the population into subgroups, but each subgroup should have similar characteristics to the whole sample. Instead of sampling individuals from each subgroup, you randomly select entire subgroups.
+
+If it is practically possible, you might include every individual from each sampled cluster. If the clusters themselves are large, you can also sample individuals from within each cluster using one of the techniques above. This is called multistage sampling.
+
+--- Slide 30 ---
+
+CLUSTER SAMPLING.
+Cluster sampling also involves dividing the population into subgroups, but each subgroup should have similar characteristics to the whole sample. Instead of sampling individuals from each subgroup, you randomly select entire subgroups.
+
+If it is practically possible, you might include every individual from each sampled cluster. If the clusters themselves are large, you can also sample individuals from within each cluster using one of the techniques above. This is called multistage sampling.
+
+--- Slide 31 ---
+
+CLUSTER SAMPLING.
+This method is good for dealing with large and dispersed populations, but there is more risk of error in the sample, as there could be substantial differences between clusters. It’s difficult to guarantee that the sampled clusters are really representative of the whole population.
+
+--- Slide 32 ---
+
+CLUSTER SAMPLING.
+The company has offices in 10 cities across the country (all with roughly the same number of employees in similar roles). You don’t have the capacity to travel to every office to collect your data, so you use random sampling to select 3 offices – these are your clusters.
+
+--- Slide 33 ---
+
+CLUSTER SAMPLING.
+
+--- Slide 34 ---
+
+STRATIFIED RANDOM VS CLUSTER SAMPLING.
+
+--- Slide 35 ---
+
+Selecting a Simple Sampling Method
+Simple random sampling involves selecting individuals or items from a population such that each member has an equal chance of being chosen. This method is straightforward to implement and suitable when the population is homogenous. 
+An example could be conducting a survey where each registered voter in a district has an equal chance of being selected to gauge political sentiment.
+
+
+--- Slide 36 ---
+
+Selecting a Complex Sampling Method
+Complex sampling methods are used when simple random sampling is impractical or inefficient. 
+These methods include stratified sampling, where the population is divided into subgroups (strata) based on certain characteristics (e.g., age groups), and then samples are randomly selected from each stratum proportionally. 
+Example is cluster sampling, where the population is divided into clusters (e.g., schools in a district), and clusters are randomly selected for sampling. This method is useful in education research when studying student performance across different schools.
+
+
+--- Slide 37 ---
+
+Using Partitioning
+Partitioning involves dividing a dataset into subsets based on specified criteria. This can help in managing and analyzing large datasets efficiently. 
+For instance, partitioning data into training and validation sets is common in machine learning to train models on one subset and validate their performance on another.
+
+
+--- Slide 38 ---
+
+Balancing Record
+Balancing records refers to ensuring that the dataset used for analysis or modeling has a proportional representation of different classes or categories. 
+This is crucial in fields like fraud detection, where the number of fraudulent transactions may be significantly lower than non-fraudulent ones. 
+Techniques such as:
+Over sampling (increasing the number of minority class records).
+Under sampling (decreasing the number of majority class records) can be                                employed to balance the dataset. 
+
+
+--- Slide 39 ---
+
+UNDER SAMPLING AND OVER SAMPLING 
+
+--- Slide 40 ---
+
+Non-probability sampling methods
+In a non-probability sample, individuals are selected based on non-random criteria, and not every individual has a chance of being included.
+
+This type of sample is easier and cheaper to access, but it has a higher risk of sampling bias. That means the inferences you can make about the population are weaker than with probability samples, and your conclusions may be more limited. If you use a non-probability sample, you should still aim to make it as representative of the population as possible.
+
+--- Slide 41 ---
+
+Non-probability sampling methods
+
+Non-probability sampling techniques are often used in exploratory and qualitative research. In these types of research, the aim is not to test a hypothesis about a broad population, but to develop an initial understanding of a small or under-researched population.
+
+--- Slide 42 ---
+
+Non-probability sampling methods
+
+--- Slide 43 ---
+
+Convenience sampling methods
+ 
+A convenience sample simply includes the individuals who happen to be most accessible to the researcher.
+
+This is an easy and inexpensive way to gather initial data, but there is no way to tell if the sample is representative of the population, so it can’t produce generalizable results. Convenience samples are at risk for both sampling bias and selection bias.
+
+--- Slide 44 ---
+
+Example: Convenience sampling
+You are researching opinions about student support services in your university, so after each of your classes, you ask your fellow students to complete a survey on the topic. This is a convenient way to gather data, but as you only surveyed students taking the same classes as you at the same level, the sample is not representative of all the students at your university.
+
+--- Slide 45 ---
+
+Voluntary response sampling
+
+
+Similar to a convenience sample, a voluntary response sample is mainly based on ease of access. Instead of the researcher choosing participants and directly contacting them, people volunteer themselves (e.g. by responding to a public online survey).
+
+Voluntary response samples are always at least somewhat biased, as some people will inherently be more likely to volunteer than others, leading to self-selection bias.
+
+--- Slide 46 ---
+
+Voluntary response sampling
+
+
+Similar to a convenience sample, a voluntary response sample is mainly based on ease of access. Instead of the researcher choosing participants and directly contacting them, people volunteer themselves (e.g. by responding to a public online survey).
+
+Voluntary response samples are always at least somewhat biased, as some people will inherently be more likely to volunteer than others, leading to self-selection bias.
+
+--- Slide 47 ---
+
+eXAMPLE:Voluntary response sampling
+
+SUPPOSE You send out the survey to all students at your university and a lot of students decide to complete it. This can certainly give you some insight into the topic, but the people who responded are more likely to be those who have strong opinions about the student support services, so you can’t be sure that their opinions are representative of all students.
+
+--- Slide 48 ---
+
+ Purposive samplinG
+This type of sampling, also known as judgement sampling, involves the researcher using their expertise to select a sample that is most useful to the purposes of the research.
+
+It is often used in qualitative research, where the researcher wants to gain detailed knowledge about a specific phenomenon rather than make statistical inferences, or where the population is very small and specific. An effective purposive sample must have clear criteria and rationale for inclusion. Always make sure to describe your inclusion and exclusion criteria and beware of observer bias affecting your arguments.
+
+--- Slide 49 ---
+
+EXAMPLE: Purposive samplinG
+You want to know more about the opinions and experiences of disabled students at your university, so you purposefully select a number of students with different support needs in order to gather a varied range of data on their experiences with student services.
+
+--- Slide 50 ---
+
+Snowball samplinG
+If the population is hard to access, snowball sampling can be used to recruit participants via other participants. The number of people you have access to “snowballs” as you get in contact with more people. 
+The downside here is also representativeness, as you have no way of knowing how representative your sample is due to the reliance on participants recruiting others. This can lead to sampling bias.
+
+--- Slide 51 ---
+
+EXAMPLE: SNOWFALL samplinG
+You are researching experiences of homelessness in your city. Since there is no list of all homeless people in the city, probability sampling isn’t possible. 
+You meet one person who agrees to participate in the research, and she puts you in contact with other homeless people that she knows in the area.
+
+--- Slide 52 ---
+
+Quota sampling
+Quota sampling relies on the non-random selection of a predetermined number or proportion of units. This is called a quota.
+You first divide the population into mutually exclusive subgroups (called strata) and then recruit sample units until you reach your quota.
+ These units share specific characteristics, determined by you prior to forming your strata. The aim of quota sampling is to control what or who makes up your sample..
+
+--- Slide 53 ---
+
+EXAMPLE:Quota sampling
+You want to gauge consumer interest in a new produce delivery service in Boston, focused on dietary preferences.
+You divide the population into meat eaters, vegetarians, and vegans, drawing a sample of 1000 people. 
+Since the company wants to cater to all consumers, you set a quota of 200 people for each dietary group. 
+In this way, all dietary preferences are equally represented in your research, and you can easily compare these groups.You continue recruiting until you reach the quota of 200 participants for each subgroup.
+
+--- Slide 54 ---
+
+THANK YOU
+https://www.scribbr.com/methodology/sampling-methods/#:~:text=First,%20you%20need%20to%20understand

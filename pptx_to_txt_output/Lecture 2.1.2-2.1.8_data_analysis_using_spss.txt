@@ -1,0 +1,2114 @@
+
+--- Slide 1 ---
+
+      
+
+
+
+
+
+
+DISCOVER . LEARN . EMPOWER
+
+
+APEX INSTITUTE OF TECHNOLOGY (CSE)
+DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING
+
+Predictive Analytics (23CSH-335)
+Faculty: Dr.Alankrita Aggarwal 
+Professor
+(E14496)
+
+
+--- Slide 2 ---
+
+
+
+COURSE OBJECTIVES 
+
+--- Slide 3 ---
+
+
+
+COURSE OUTCOMES 
+On completion of this course, the students shall be able to
+
+--- Slide 4 ---
+
+
+
+
+DATA ANALYSIS
+USING SPSS
+
+--- Slide 5 ---
+
+Purpose
+The intent of this presentation is to teach you to explore, analyze, and  understand data
+The software used is SPSS (Statistical Package for the Social Sciences)
+commonly used in social sciences and health fields
+as opposed to other statistical software such as SAS or R, it requires
+little to no coding background
+This presentation is taken from the work of Andrew Garth (Sheffield  Hallam University) and  full document can be found at the link below:  https://students.shu.ac.uk/lits/it/documents/pdf/analysing_data_using_sp  ss.pdf
+All the data files used in this presentation can be found at the link below  (download the SPSSDATA.zip):  http://teaching.shu.ac.uk/hwb/ag/resources/resourceindex.html
+
+--- Slide 6 ---
+
+Outline
+First, we will look at the Big Picture
+Next, we’ll define our terms
+Then, we’ll get set up for working in SPSS
+Only then will we get into the meat of things, which will  focus on aspects of data analysis
+Descriptive Statistics and Graphs (Exploring our Data)
+Inferential Statistics (Analyzing our Data, and  Interpreting our Results)
+
+--- Slide 7 ---
+
+The Big Question.
+How should I analyze my data?
+It depends on the nature of the data and  what questions you want to answer
+To answer those questions, you need to explore your data.  and select the proper analysis
+
+--- Slide 8 ---
+
+Explore your data
+Look at data
+Identify data
+Graph/Describe data
+Formulate Question (Hypothesis)
+
+Analyze your data
+Set up hypothesis
+Check normality
+Select and run appropriate test
+
+Interpret your results
+Find the Test Statistic, DF, and P-value
+Determine if significant
+State if null hypothesis rejected or not
+Write result
+Present appropriate plot
+Big Picture Steps in Statistical Analysis
+
+--- Slide 9 ---
+
+Before we can start analysis, we need to get  set up on the basics
+Defining Terms
+Working in SPSS
+
+--- Slide 10 ---
+
+Defining Terms 1
+There are two basic data types, each with two sub-types
+Numerical: expressed by numbers
+Discrete: numbers take on integer values only (number of children,  number of siblings)
+Continuous: numbers can take on decimal values (height, weight)
+Categorical: expressed by categories (also known as  factors/groups)
+Nominal: no meaningful order between categories (gender, occupation)
+Ordinal: categories can be put in meaningful order (agreement, level of  pain, etc.)
+If data is not used for analysis, it can be labeled as a nuisance or  bookkeeping variable
+
+--- Slide 11 ---
+
+
+--- Slide 12 ---
+
+Defining Terms 2
+Data can also be paired or unpaired
+Paired: categories are related to one another
+Often result of before and after situations
+(treatments/events)
+Since each part of the pair is related to each other, this  needs to be considered
+If there are pairs of higher than 2, this is called repeated  measures
+Unpaired: categories are not related to one another
+Numerical data can be parametric or non-parametric
+Simply put, parametric data approximately fits a normal  distribution
+Data are symmetric around a central point
+“Bell curve”
+Also known as normally distributed
+Data must be parametric (normally distributed) for many statistical  tests
+If the data are not parametric, you cannot use the test results
+If the data are non-parametric (does not fit a normal  distribution), there are non-parametric tests for use, but they  are weaker
+
+--- Slide 13 ---
+
+Defining Terms 3
+Recap
+Data can be:
+Numerical, categorical, or
+nuisance
+Paired or unpaired
+Parametric or non-parametric  (usually must run a test to tell)
+Examples
+Numerical continuous: height, weight, drug  concentration
+Numerical discrete: number of siblings, number
+of drinks in a day, flower petal number
+Categorical ordinal: time of day (morning, noon,  night), position (assistant professor, associate  professor, department chair, dean)
+Categorical nominal: flower color, college major,  drug treatment (A, B, C)
+Nuisance: sample number, subject name, date,
+id number
+Paired: Before, during, and after treatment; pre-  and post-disaster
+
+--- Slide 14 ---
+
+Defining Terms 4
+For statistical tests, we use two types of variables:
+Independent Variable- variation does not depend on another variable
+Usually denoted as X
+Typically represents what the researcher set up (treatment, group, etc.)
+Dependent Variable – value depends on another variable (the independent one)
+Usually denoted as Y
+Represents the variable that the researcher is interested in
+Output or outcome
+Almost all statistical tests give three important pieces of information
+Test statistic
+Variable calculated from sample data and used in hypothesis test
+Used to determine whether a test was significant or not
+Degrees of Freedom
+Number of values of quantities that can be assigned to a statistical distribution
+Should be reported with test results
+P-value/Level of Significance
+Measure of significance for the test statistic
+Typically 0.05 is the cutoff value
+
+--- Slide 15 ---
+
+
+
+Assessment 1
+What types of data (categorical [nominal,  ordinal], numerical [discrete, continuous] are  each of the following examples
+Number of vaccine shots administered
+Highest level of education attained (high  school, bachelors, masters, PhD)
+Country of origin
+Tumor size
+In the boxplot graph to the right, which axis is  the independent variable plotted on? Which  axis is the dependent variable plotted on?
+In the table to the right, label each of the  columns as numerical, categorical, or nuisance
+
+
+--- Slide 16 ---
+
+Assessment 1 Answers
+What types of data (categorical [nominal, ordinal],  numerical [discrete, continuous] are each of the following  examples
+Number of vaccine shots administered (numerical
+discrete)
+Highest level of education attained (high school,  bachelors, masters, PhD) (categorical ordinal)
+Country of origin (categorical nominal)
+Tumor diameter (numerical continuous)
+In the graph to the right which axis is the independent  variable plotted on? Which axis is the dependent variable  plotted on? Independent on X-axis (Treatment),  Dependent on Y-axis (Inflammation)
+In the table to the right, label each of the columns as
+numerical, categorical, or nuisance
+(nuisance, nuisance, numerical, categorical, categorical)
+
+--- Slide 17 ---
+
+Starting in SPSS : Access
+You can get access to SPSS using the  CitrixWorkspaceApp for UND
+Some UND computers also have it  downloaded
+If all else fails, you can try a free trial  (https://www.ibm.com/account/reg/  us-en/signup?formid=urx-19774)
+From here on out, I will be using the  following formats
+White boxes with green border are instructions
+in SPSS.
+These will guide you through how to do the  exploration/analysis I show yourself.
+White boxes with purple borders are summaries
+1.	Orange boxes with red border are  general step outlines
+Blue boxes are reminders
+
+--- Slide 18 ---
+
+Starting in SPSS: Data Format
+Specifics of format depends on the kind of data
+Principles that apply in most situations
+Each case goes in its own row
+Categorical variables are best represented by  numbers (even though they are not): can be  labeled with Variable Labels option
+Variable names for the columns are limited in  length, so again can be labeled with Variable  Labels option
+Multiple groups of subjects should still be set  up with each case having its own row: create a  new variable column and give it the group  label
+
+--- Slide 19 ---
+
+Starting in SPSS: Entering data
+There are two ways to enter data into  SPSS
+Manually (entering the data by  hand)
+Loading in a file (data is saved in  some form and can be opened in  SPSS)
+Let’s try manual first
+You can look at the data in two ways
+Variable View
+Data View
+SPSS gives a lot of information, most
+which you don’t need
+Ignore what you don’t need
+Start SPSS from wherever you have it
+Double click New Dataset at the top left
+In the box on the right there are 10 people’s names,
+type them into the first column
+You may notice a problem when you get to Peter.
+Peter has 5 letters in his name, unfortunately  SPSS has assumed all the cases are similar to  the first one and Peter has become Pete.
+We can alter this by switching to the Variable  View (click the tab at the bottom of the SPSS  window). You should see a row of information  about variable one (var0001), which is where  we are storing these names.
+Change the Width from 4 to 12.
+Go back to the Data View and type in Peter
+again.
+Finish typing the names.
+Go back to the Variable View and change the column  name (variable) to person rather than var00001.
+Do the same for var00002, replacing it with the name
+‘age’.
+
+--- Slide 20 ---
+
+
+--- Slide 21 ---
+
+Starting in SPSS: Saving data
+Graphs and analyses will not be  saved unless you save them  specially
+Save often
+It is good practice to have multiple  copies of data (especially when  working on original data)
+To save the names and ages from the previous slide, choose Save from  the File menu. Call it people and put your name at the end of the word  (ex. peopleAnderson).
+You can save anywhere you want by using the Look in: and selecting the
+appropriate location
+To save graphs or analyses, we need to do an analysis first
+Click on the Analyze menu and choose Descriptive Statistics, then  Descriptives.
+The button between the two windows let you choose the variables  to be analyzed, in our case the choice is simple, just click the  center button to move the age variable over to the right then click  OK.
+SPSS should display the results in a separate window, you will see  this appear in front of the Data Editor and a new button will  appear on the Windows task bar at the bottom of your screen. The  new window has a title, have a look in its title bar at the top of its  window.
+Look at the output. If you want to save results like this, you have
+to save it separately.
+Reminder: the data needed for the  tasks to follow are at:
+https://teaching.shu.ac.uk/hwb/a
+g/resources/resourceindex.html
+
+--- Slide 22 ---
+
+
+--- Slide 23 ---
+
+Starting in SPSS: Looking at data
+Seeing what data looks like is the first step to data
+analysis
+It gives a broad-overview in what is going on
+Again, each row is a different sample, while the columns  show the value of different variables for that sample
+Looking at the data tells you a lot of big-picture things
+How many samples there are
+How many variables there are
+The types of variables and their values
+If there is any missing data
+We will examine some data collected by an Occupational  Therapy student, looking at how age affected OT  students’ participation in discussion in class.
+She counted how many times each student contributed  orally in a period totaling 12 hours of classes. The  students were from the 1st and 2nd years of the course  and were classed as young if under 21 and mature if 21  or over, making 4 groups altogether.
+Open up Studentss in SPSS
+choose the File menu and select Open->  Data (will need to search for wherever  you downloaded the sample files)
+Take a look at the data and answer the  following questions.
+What is each column telling you?
+Which group is which?
+How many students were in each group?
+Do older students contribute more
+frequently in class discussion?
+
+--- Slide 24 ---
+
+
+--- Slide 25 ---
+
+Starting in SPSS: Exploring the Data
+When analyzing data, it is necessary  to know what variable is what
+Dependent variable:
+depends on the factor
+Is usually numerical
+In our case, it is ‘speaks’
+Independent variable (Factor):
+Is the groups that the different  samples are grouped into
+Is usually categorical
+In our case, it is ‘group’
+Click on the Analyze menu->Descriptive  Statistics->Explore.
+Transfer the speaks variable to the  Dependent list and the group variable to  the Factor list and then click OK.
+Take a look at the results.
+
+--- Slide 26 ---
+
+Descriptives
+group Statistic	Std. Error  speaks	M1	Mean 33.09 7.303
+95% Confidence Interval for Mean
+Lower Bound 16.82
+Upper Bound 49.36
+5% Trimmed Mean 32.16
+Median  Variance
+31.00
+586.691
+Std. Deviation
+24.222
+Minimum	2
+Maximum	81  Range79
+Interquartile Range 34
+Skewness  Kurtosis
+.677	.661
+.185	1.279
+M2	Mean 46.91 10.964
+95% Confidence Interval for Mean
+Lower Bound 22.48
+Upper Bound 71.34
+5% Trimmed Mean 42.84
+Median  Variance
+34.00
+1322.291
+Std. Deviation
+36.363
+
+Y1	Mean  9.67	2.101
+95% Confidence Interval for Mean
+Lower Bound 5.04
+Upper Bound 14.29
+5% Trimmed Mean 9.57
+Median  Variance
+8.00
+52.970
+Std. Deviation
+7.278
+Minimum	0
+Maximum	21  Range21
+Interquartile Range 13
+Skewness	.245	.637
+Kurtosis	-1.248 1.232
+Y2	Mean 16.50 3.845
+95% Confidence Interval for Mean  Lower Bound 7.80
+Upper Bound 25.20
+5% Trimmed Mean 15.89
+Median
+Variance
+12.00
+147.833
+Std. Deviation
+12.159
+Interquartile Range 16
+Skewness	1.292 .687
+Kurtosis	.542	1.334
+
+--- Slide 27 ---
+
+Using descriptive statistics
+It is hard to read out the various  descriptive statistics from graphs
+Instead, we can calculate them and  spit out numbers in tables: such as  medium, mean, interquartile range,  and, standard deviation
+Measures of central tendency, or
+‘average:
+Mean: all values are summed  and divided by the number of  values
+Median: middle value
+Mode: the most common value
+Measures of spread:
+Interquartile range
+Standard Deviation
+Go back to the studdentsss file
+Got to Analyze menu, select Descriptive  Statistics, then Explore. The dependent list  refers to the quantity we are measuring, in this  case, the number of times people speak. In  the factor list we put the factor that we are  investigating, in this case "agegroup".
+From the output find the Mean and Median of  each group. The mean and median are both  forms of average, do they seem to agree?
+Part A-3d
+
+--- Slide 28 ---
+
+
+--- Slide 29 ---
+
+
+
+Assessment 2
+When formatting data in SPSS,  should each sample be put in its  own row?
+Will SPSS automatically save  results and graphs?
+What is the mean, median, and  mode of the dataset to the right?
+
+--- Slide 30 ---
+
+Assessment 2 Answers
+When formatting data in SPSS,  should each sample be put in its  own row? YES
+Will SPSS automatically save  results and graphs? NO
+What is the mean, median, and  mode of the dataset to the right?
+3.33, 2, 2
+
+--- Slide 31 ---
+
+Descriptive Statistics and Graphs  (Exploring our Data)
+A large part of data analysis is exploring your data and  understanding more about it, both by visually graphing it  and generating statistics such as means
+This section will go over a variety of the basic approaches
+
+--- Slide 32 ---
+
+Rules for Exploring Data
+Discipline
+If you discipline yourself by doing each of these things each time you look at your data, you will  develop the skill to intelligibility see the data
+This will give you the freedom to analyze the data without struggling to comprehend even the most  basic understanding of the data
+Computers are fast but dumb, so they rely on you to supply the intelligence to make sure the results  are useful
+Rules
+Look at data: open up the file and look at the raw data (or, if the data is too large, a subset)
+Identify data: for each column determine what type of data it is
+If it is numerical, is it continuous or discrete?
+If it is categorical, how many categories and is it nominal or ordinal?
+Or if it is not useful, call it a nuisance variable?
+Are their any variables that may be paired?
+Graph/Describe data: for each variable or set of variables (comparison), graph and run descriptive  statistics
+Write Research Question: Write out in a clear sentence what each comparison is trying to test
+
+--- Slide 33 ---
+
+Rules: Example with Plant data
+6	Phosphorus	33.4	4
+7	Phosphorus	42.2	6
+8	Phosphorus	47.7	7
+9	Nitrogen	32.5	4
+10	Nitrogen	27.3	5
+11	Nitrogen	24.6	5
+12	Nitrogen	30.0	5
+e
+Nuisance	Categorical	Numerical	Num
+Nominal	Continuous	Discr
+Sample	Treatment	Growth Rate	Leaf
+1	Control	20.1	5
+2	Control	27.5	6
+3	Control	23.2	5
+4	Control	19.8	4
+5	Phosphorus	45.6	5
+rical
+ete
+Number
+Is there a difference in [plant]  growth rate across nutrient  treatments?
+Is there a difference in [plant] leaf  number across nutrient  treatments?
+Is Leaf number related to growth
+rate?
+
+--- Slide 34 ---
+
+Mean vs. median
+Open a new file. (File->New->Data) We are going  to type in a few figures.
+Put the following numbers in the first column  (7000, 7000, 7000, 7000, 7000, 7000, 7000,  7000, 7000, 100000).
+Give the column the title ‘Salaries’ (you need to
+click onto the Variable View for this
+Back in Data View you may want to alter the  column width by dragging the vertical bar next to  the variable name.
+The numbers represent the annual salaries of the  10 permanent employees of a small (mythical)  private clinic. Which is the director’s?
+Run Descriptive Statistics->Explore to find the  mean and the median. If you were the union  negotiator for the employees of the clinic which of  the two average salaries would you quote to the  press? If you were the owner of the clinic which  might you quote?
+Find the inter-quartile range and the standard  deviation. Can you sketch what the Boxplot would  look like? Create the Boxplot on SPSS if you like.
+Part A-3
+Summary: Mean vs. Median - both are types of  average. The mean is based on all the data  values, however because of this it is prone to  being unduly affected by outliers in the data,  most noticeably when the sample is small. The  median however is largely unaffected by one or  two extreme outliers, even in small samples, it is  simply the middle value.
+
+--- Slide 35 ---
+
+
+--- Slide 36 ---
+
+Standard deviation
+What is the Standard Deviation (S.D.)  really measuring?
+What can it tell us about our data?
+Let’s take a look at some data
+– The table below shows the  German, Geography and IT  results of a group of ten
+students.
+Open the file std dev example in SPSS
+Use the Descriptive Statistics->Descriptives  to fill out the table below
+Which set(s) of figures has the largest  range?
+Which set(s) of figures has the largest  number in it?
+Which set(s) of figures contains the smallest  number?
+Which set of figures has the largest
+minimum?
+Part A-4
+
+--- Slide 37 ---
+
+
+--- Slide 38 ---
+
+Standard deviation 2
+Given the figures for mean, maximum and minimum it is hard to differentiate between the German and  IT figures, the mean, (arithmetic mean) of the figures is the numbers all added together then divided by  the number of numbers.
+However it gives no indication of the distribution of the marks within the sets of figures. To do this we  could graph the three sets of figures and see if that helps us (later we will create bar charts, for now just  look at these).
+Look at the three graphs above. Which two do you think are most similar?
+Possibly Geography and IT but it is rather subjective. They do seem to have less variation in the values  than the German results.
+Part A-4
+
+--- Slide 39 ---
+
+Standard deviation 3
+Question: How can we asses in a  fair, unambiguous way, which of  three has the least widely deviating  set of numbers?
+Answer: Use the Standard  Deviation.
+The standard deviation of a set of numbers is a measure of how widely values are dispersed
+from the mean value. It can be calculated manually, or SPSS can calculate it for you.
+
+--- Slide 40 ---
+
+Standard deviation 4
+Let’s work out the standard deviation of the  numbers in each column from the std dev  example
+Higher Standard Deviation values indicate a
+greater spread of values
+Lower Standard Deviation values indicate a  tighter spread of values
+Use Descriptive Statistics then Frequencies from  the Analyze menu.
+Select the three variables (get German,  Geography and Information Technology (IT) from  the left into the right pane).
+Click the “Statistics” button and select the  Standard deviation as well as mean, maximum  and minimum, then click “Continue”.
+Before pressing OK on the Frequencies dialog  box, uncheck the option to display frequency  tables then click OK.
+Compared the standard deviations.
+Which set of figures, German, Geography
+or IT, is the least spread out?
+Of the two subjects with the same mean,  and the same range, which varies least?
+Which of the three sets of figures, German,  Geography or IT varies most?
+Part A-4
+Summary: Range, IQR & SD are all measures of  spread. Only the SD takes all the data values into  account, however this leaves it open to problems  similar to the mean, i.e. a tendency to be swayed  inordinately by extreme values. The range is  extremely sensitive to outliers, since it is based  only on the smallest and largest values. The Inter  Quartile Range is again based on only two values,  the upper and lower quartiles, these are on each  end of the middle half of the data, therefore less  effected by extremes.
+
+--- Slide 41 ---
+
+
+--- Slide 42 ---
+
+
+
+Assessment 3
+In the data to the right, which subject  had the highest average score?
+In the data to the right, which subject  had the most variation in score?  Which had the least?
+What are the 4 rules for exploring  data?
+
+--- Slide 43 ---
+
+Assessment 3 Answers
+In the data to the right, which subject  had the highest average score?
+Physical Education
+In the data to the right, which subject  had the most variation in score?  Which had the least?
+Science, Physical Education
+What are the 4 rules for exploring  data?
+Look at the Data
+Describe Each Variable
+Graph/Stats each Comparison
+Write Research Question
+
+--- Slide 44 ---
+
+Graphs
+Graphs serve two purposes
+Quickly visualize data during data exploration
+Present results of significant statistical analyses
+
+--- Slide 45 ---
+
+Types of Graphs to be covered
+
+--- Slide 46 ---
+
+Histogram and Normal Distribution
+Histograms can be used to look at  the distribution of data
+This is important for determining if  the data is parametric or not
+Open the file Reconstructed male heights 1883 in SPSS.
+This file contains data that is similar to that from which the  table you have seen was derived. The file contains 8585  heights, measured in inches.
+We are going to create a histogram from the values in the
+variable called hgtrein
+From the menus choose Graph->Chartbuilder.
+A dialog box will come up, choose OK.
+In the bottom section Choose Histogram and double click the
+first image
+Drag the hgtrein (Heights in inches - reconstructed) variable  over to the box representing the horizontal (X) axis of the graph.
+Click OK and wait to see the graph in the output viewer. You  should see a normal (bell shaped) pattern to the distribution of  the data.
+To see a normal curve superimposed on the graph go back to  the Create Histogram dialog box (from the menus Graph,  (Legacy,) Interactive, Histogram) then click on the Histogram  tab and tick the "Normal curve" check box, then Click OK.
+Are these data Discrete or Continuous?
+Reminder: if data is parametric, it will  approximate a normal distribution (bell  curve) when viewed as a histogram.	Many  statistical tests can only be used if the  data is parametric
+
+--- Slide 47 ---
+
+
+--- Slide 48 ---
+
+Histogram 2
+Radiologist example:
+The file Radiologist dose with and without lead  combined.sav contains data gathered to assess the  effect of a lead screen to reduce the radiation dose to  Radiologists hands while carrying out procedures on  patients being irradiated.
+In the trials the lead screen was placed between the  patient and the radiologist, the intended effect was to  reduce the radiation dose to the radiologist, however  there were fears that working through the screen would  lengthen the procedure. We want to answer two  questions with this data, one about the hand dose and  the other about the length of time the examination  took.
+Open Radiologist dose with and without lead combined file in  SPSS
+Look at the data, the variable called "screen" is the variable  that lets you discriminate between procedures carried out with  or without the lead screen. If there is a 1 in the screen variable  column it means the procedure was carried out with the screen  in place, if not the value is 0.
+We can use this discriminatory variable to create two  histograms at once, by using it as a panel variable.
+The variable we are interested in is the dose to the radiologists'  left hand, the left-hand would be nearest the patient so we will  concentrate on the left-hand dose variable.
+Draw histogram using the left-hand dose variable (lhdose)
+Go to the Groups/Point ID tab and click the Rows panel  variable
+Drag the discriminatory variable (Lead or No Lead) as the panel  variable.
+What do the histograms show us about the data?
+If you have time draw a similar histogram using the extimmin  variable. Does this back up the fears about the increase in  examination time?
+Summary: Histograms are for displaying continuous data,
+e.g. height, age etc, the bars touch, signifying the  continuous nature of the data. The area of the bars  represent the number in each range, the bars are usually  of equal widths but this need not always be the case.  Histograms should be clearly labelled and the units of  measure displayed. The use of Histograms compared to  Bar Charts is summarized after the section on Bar Charts.
+
+--- Slide 49 ---
+
+
+--- Slide 50 ---
+
+Drawing boxplots
+Boxplots are a great way to visualize  data between varies groups
+Requires: numerical dependent variable
+and a factor with 2 or more groups
+For paired data, you can draw boxplots  straight from the graph menu
+Go back to in studentsss
+Choose Chartbuilder under Graphs
+In the bottom section Choose Boxplot and double  click the first image
+Drag the speaks variable to the y-axis and the year  variable to the x-axis.
+Look at your boxplots. Can you see an asterisk or  circle beyond the whiskers? In SPSS an asterisk  represents an extreme outlier (a value more than 3  times the interquartile range from a quartile). A circle  is used to mark other outliers with values between
+1.5 and 3 box lengths from the upper or lower edge of
+the box. The box length is the interquartile range.
+Which number on your data screen does the most  extreme outlier correspond to? (SPSS gives a bit of a  hint here!) Why is it an extreme outlier?
+Look at the boxplots, which group has the highest  median? What does this tell you about the groups?
+	Look at the boxplots, which group has the highest  interquartile range (IQR)? What does this tell you  about the groups? Refer to a glossary to review IQR
+Summary: Boxplots are good for seeing the range  and level of data and highlighting outliers. The  box shows the IQR (Inter Quartile Range) and the  bar in the box shows the median. Boxplots should  be clearly labelled with the units of measure  displayed.
+
+--- Slide 51 ---
+
+
+--- Slide 52 ---
+
+Bar Charts
+open the file shoetypes in SPSS
+	this file contains data about the type of shoes  worn at the time the data were gathered and  number of pairs owned by a sample of 100  people. We can use SPSS to analyze the data by  using bar charts among other methods.
+Graphs->Chartbuilder->Select Bar
+Drag the footwaretxt variable to the x-axis then
+click OK. The graph above should appear.
+Try again but this time, include a Rows Panel  variable, then drag the gendertxt variable over  Panel box and see what happens.
+Bar charts and histograms look similar at first
+there is however a definite difference in the type of  data each is designed to show and this subtle  difference is an important one if you are using  them in your research.
+Bar charts are for non-continuous data, i.e. data in
+categories that are not related in any order.
+Histograms are for displaying continuous data
+the graph can be edited after it is drawn, just  double click on the graph and then click into the  labels you wish to alter
+Summary: Bar charts are for non-continuous data e.g. the number of  people from each of five towns, the bars do not touch. Bar charts should  be clearly labelled and the units of measure displayed. Bar charts and  Histograms look similar, however the type of data they should be used on  is different. In a Histogram the bars touch each other, this denotes the  continuous nature of the data being displayed. Bar charts should be used  for discrete data. If you aren't sure about the difference between  continuous and discrete data look it
+
+--- Slide 53 ---
+
+
+--- Slide 54 ---
+
+Percentages
+Percentages are often used in bar charts
+General formula for calculation
+percentages
+100 × the individual value ÷ the total of  the values
+If percentages span across all values, the  total needs to sum to 100% across all  groups
+Summary: Percentages show  proportions, it should be clear  what they are percentages of.
+You can very quickly create summary percentages using the  "frequencies" command, for example in the shoes file,
+What percentage of subjects were wearing each type of shoe?
+Analyze->Descriptive Statistics->Frequencies
+Add footware to the variables list
+Does the percentage of footwear types differ in the different  gender grouped?
+Lets get SPSS to do everything twice, once for males and once  for females, we can do this using the split file command.  Choose Data->Split file. Now calculate the percentages again  as you did before.
+The output should now be split into two groups, one for Male  and one for Female. Tables like this are rarely in the ideal  format for inclusion in a dissertation or paper but can be  copied and pasted into a word processor and manipulated  there.
+Remove the split once you have done with it. If you leave it on  you may get some strange results. Choose Data, Split file. Then  select the "Analyse all cases" option, then click OK.
+Don't forget to switch this feature off when you don't need it!
+
+--- Slide 55 ---
+
+
+--- Slide 56 ---
+
+Scatterplots
+Used when data are paired: each  point on a diagram represents a pair  of numbers
+A better description is that you use  scatter plots when comparing two  numerical variables (Unlike a  numerical and categorical like in box  or bar)
+Scatter plots are used to detect  correlation
+Correlation is not causation
+Strong, weak, or no correlation,
+Positive or negative
+Open the file Step in SPSS
+These data come from an experiment to see whether subjects could  perform more step exercises in a fixed time in a group or on their  own. A physiotherapy student collected them as part of a third year  project.
+Look at the data; you will see that the columns are of equal length,  this is another indication that the data are paired.
+We are going to draw a scatterplot for these two columns with the  number of steps done individually on the x-axis.
+Graphs->Chartbuilder->Scatter/Dot.
+Drag individ to X-axis and group to Y-axis.
+Do the points appear to form a line?
+If they do is it a clear, quite thin line or more like a cloud?
+Does it slope up or down from left to right?
+Look at your answers and decide if there is a strong, weak or no  correlation. Is it positive or negative?
+
+--- Slide 57 ---
+
+
+--- Slide 58 ---
+
+Scatterplots 2
+Adding more information to the previous plot
+Go back to the Chartbuilder.
+To add a linear fit line, select the Total box  under Linear Fit Lines, or select the second  scatterplot image.
+Does the line match what you predicted?
+Summary: Scatter plots are used to  show paired data, where for example  one person is tested under two  circumstances, each individual will  have a pair of readings. In this  example a scatter plot can be used to  indicate changes between the  performance in different  circumstances. Scatter plots are also  typically used to show correlation.
+Scatter plots should be clearly labelled  and the units of measure displayed.
+
+--- Slide 59 ---
+
+
+
+
+--- Slide 60 ---
+
+Line graphs
+Line graphs are useful in time-based designs  Typically consists of a numerical variable over time  Example: Oxygen used walking description
+The variables in the file are: vo2 Volume of O2  ml/min vco2 Volume of CO2 ml/min hr Heart  Rate beats per minute seconds time in seconds  from start of procedure
+The protocol employed to take the
+measurements consisted of:
+5 minutes rest, to achieve baseline values  for heart rate and enable the subject to  get used to the equipment, followed by:
+10 minutes exercise, (walking at a self-
+selected speed) followed by:
+a second 5 minutes rest, to ensure  baseline values return to the norm for the  subject. This is important when  interpreting the graph we are about to  draw.
+Open the file Oxygen used walking in SPSS
+The data is just part of a large dataset collected by a student researching  the effect of tibial malunion on oxygen expenditure during exercise.
+For our purposes the data gives us a good example of a variable
+changing over time. The file contains the data from just one subject.
+From the menus choose Graphs->Chartbuilder->Line
+Drag the Heart Rate (HR bpm) onto the Y-axis and the Time (time in
+seconds) onto the X-axis.
+Look at the graph. It is easy to see when the subject started and stopped  walking!
+The increase looks massive, but it is because the graph used a false
+origin (not set at zero). We’ll want to redraw and label better.
+Go back to Chartbuilder
+Click on the “Titles” tab and switch the text from Automatic to Custom  and add an appropriate name, such as “The effect of exercise on heart  rate.”
+Click on the Y-axis. Under the Scale Range, Switch off the Automatic
+feature. Set the minimum to 0 and the maximum to 100. Press OK.
+
+--- Slide 61 ---
+
+
+--- Slide 62 ---
+
+Multiple Line graphs
+Part A-8
+More than one line can be plotted at once, as  long as the time variable is consistent
+Example: Children looked after
+The data are from the Department for
+Education and Skills
+gives figures for children looked after by  Local Authorities in England.
+We will use the older graphing system and the data in the file called  Children looked after
+The variable names may look a bit strange at first, go to the Variable view.
+Graphs->Legacy Dialogs->Line->Multiple
+Select the option for Multiple lines and Summaries of separate variables.  Then press "Define".
+Transfer the variables "Boys 1-4" and "Girls 1-4" to the top box and the  "year" to the Category Axis then click OK.
+The graph that appears should let you answer the following questions;
+In the 11 years covered by the data do the numbers of girls and boys  aged 1 to 4 looked after by Local Authorities in England appear to  increase?
+Are the number of boys and girls in the age group 1 to 4 staying in  roughly the same proportion, i.e. do they seem to increase or decrease  together?
+Now plot the data for the 16 and over age group, can you see any  difference between the girls and boys?
+Summary: Line graphs are ideal for showing the  changes in a variable as another alters, e.g.  changes over time. The independent variable goes  on the x-axis and the dependent variable goes up  the y-axis. More than one line is often shown on  the chart allowing comparisons. Line graphs  should be clearly labelled and the units of  measure displayed.
+
+--- Slide 63 ---
+
+
+
+
+--- Slide 64 ---
+
+
+--- Slide 65 ---
+
+Pie charts
+Part A-9
+Pie charts are ideal for showing  proportions and summarizing data
+They can be made using raw data or  pre-aggregated data
+Open the file shoetypes in SPSS again
+Graphs->Chartbuilder->Pie.
+Put footware in the left bar (footwaretext should be in the  Set color bar on bottom)
+Click the Rows panel variable, then drag gendertxt to the  panel bar. You should get two pie charts, one for each  gender, this might help identify any differences between  the gender groups in their choice of shoes.
+Open the file hip patient numbers in SPSS.
+This is a simplified version of the NHS hip fracture  discharge data for 1997 to 1999 for England for patients  aged 65 and over.
+Drag the “Trust Cluster” variable to the “Slice By” box, this will  tell SPSS to make each slice of the pie represent one type of  trust (Small/medium acute, Large acute, Very large acute, Acute  teaching, Multiservice).
+Drag the “Patient 97” variable to the “Count” box and press OK
+Summary: Pie charts, are used to show proportion,
+e.g. the number of votes cast for each party in an  election. The pie should add up to 100% of the  observed data. Pie charts should be clearly  labelled and the units of measure
+
+--- Slide 66 ---
+
+
+--- Slide 67 ---
+
+
+--- Slide 68 ---
+
+
+
+Assessment 4
+In the boxplot to the right, label the
+letters with the appropriate term
+a)
+b)
+c)
+For the three histograms to the  right, label them as parametric  (normally distributed) or non-  parametric
+For the scatterplots to the right,  label the correlation as:
+Strong, Weak, or None
+Positive, Negative, or None
+a
+
+b
+c
+
+--- Slide 69 ---
+
+Assessment 4 Answers
+In the boxplot to the right, label the
+letters with the appropriate term
+Interquartile Range
+Median
+Extreme Value / Outlier
+For the three histograms to the right,  label them as parametric (normally  distributed) or non-parametric
+parametric, non-parametric, non-parametric
+For the scatterplots to the right, label
+the correlation as:
+Strong, Weak, or None
+Positive, Negative, or None
+None-None, Strong-Negative
+a
+
+b
+c
+
+--- Slide 70 ---
+
+Inferential Statistics (Analyzing our Data)
+If we want to draw conclusions about an  entire population from our sample, we enter  the realm of inferential statistics
+This section will go over a variety of the  basic tests
+
+--- Slide 71 ---
+
+Guidelines of tests
+You ought to be interested in using statistics to make as accurate mathematical  inferences about the complexities of reality to make the world a better place
+The statistics only tell you as much as you put into them, and again, they are only  mathematical representations
+It is up to you to be as disciplined as possible in setting up your data and analyzing it
+in such a way as to best get at the truth of the world
+The following are my strong suggestions of how to go about analyzing data: think of  them like football drills: you need to master the basics to be any good at answering  questions with statistics
+Part B-2
+
+--- Slide 72 ---
+
+Part B-2
+Rules of Analysis
+Explore your data (outlined in first section)
+Look at data
+Identify data
+Graph/Describe Data
+Formulate Question
+
+Analyze your data
+Set up hypothesis (null and alternative)
+Check normality
+Select and run appropriate test
+
+Interpret your results
+Find the Test Statistic, DF, and P-value
+Determine if significant
+State if null hypothesis rejected or not
+Write result
+Present appropriate plot
+
+--- Slide 73 ---
+
+Analyze your data: Set up Hypothesis
+When running a statistical test, there are two hypotheses being tested
+Null Hypothesis: the default, or ‘boring’ state
+Typically ‘no change’, ‘no difference’, or ‘no relationship’
+Alternative Hypothesis: something else happening
+Construct the two hypotheses based on your question from the data exploration step
+Example 1
+Question: Is there a difference between male and female shark body length?
+Null Hypothesis: There is no difference in shark length by gender.
+Alternative Hypothesis: There is a difference in shark length by gender.
+Example 2
+Question: Is there relationship between the cups of coffee consumed during studying
+and exam grade?
+Null Hypothesis: There is no relationship between cups of coffee and exam grade.
+Alternative Hypothesis: There is a relationship between cups of coffee and exam grade.
+
+--- Slide 74 ---
+
+Analyze your data: Check Normality
+Many tests can only be run with data that is parametric (normally  distributed)
+Check normality by histogram, QQ-plot, and test for normality
+Usually try two or three, as each gives some different information
+–	I prefer using histograms and QQ-plots, as the test for normality is
+strict and most data isn’t neat enough to pass
+Determining if something is normally distributed via graph inspection is
+partly an art (you have to get good at looking at the graphs)
+
+--- Slide 75 ---
+
+Analyze your data: Tests for Normality
+Histogram
+Bars should approximate the bell curve if  it is normally distributed
+Doesn’t have to be perfect
+QQ plot
+In this plot, the normal distribution is a  straight line
+If normally distributed, the points should
+cluster around the straight line
+Should not have ‘tails’
+Test of normality
+Statistical test
+Kolmogorov-Smirnov standard
+Shapiro-Wilk for small sample size
+Sig. column (p-value) interpreted as if  more than 0.05, from normal distribution
+If less, then not from normal dist.
+Open tests for normality file in SPSS
+For Histogram
+Graphs->Chartbuilder->Histogram
+Variable under investigation to the horizontal  (try both Random number and Normally  distributed)
+Select normal curve
+3.	Q-Q plot
+Analyze->Descriptive Statistics->Q-Q Plots
+Can run both variables at the same time
+4.	Test for normality
+Analyze->Descriptive Statistics->Explore
+Put variables to check under the Dependent  list box
+Click to select Normality plots with tests
+Part B-9
+Reminder: every test has a test statistic  and a p-value.	The p-value tells you if the  test statistic is significant
+
+--- Slide 76 ---
+
+
+--- Slide 77 ---
+
+Degrees of Freedom
+Test Statistic
+P-value
+
+--- Slide 78 ---
+
+Assessing normality
+If the data is not normally distributed, you can try transformations
+These only work for numerical data, and some only work for certain kinds of  numerical
+Most common:
+Log transformation
+Can’t use on variables that include zero or negative numbers
+Square root transformation
+Can’t use on variables that include negative numbers
+Doing this in SPSS
+Can play around with Transform->Compute Variable
+This can create new columns of variables based on transformations
+(We won’t be transforming data in this presentation, but it is useful to know in the
+future)
+Then, check for normality (histogram, Q-Q plot, etc.) on the transformed data,
+If it looks normally distributed, use the transformed data in the analysis
+If not, try another transformation
+If still not, will have to use non-parametric
+Reminder: Non-parametric tests are  weaker, so we only use those tests if we  cannot use parametric ones
+
+--- Slide 79 ---
+
+
+Does the data fit a normal  distribution (or close  enough)?
+
+Great! Use a
+PARAMETRIC TEST.
+
+Can the data be  transformed to fit a  normal distribution?
+
+Great! Use a  PARAMETRIC TEST.
+
+Use a NON-  PARAMETRIC TEST.
+Y
+Y
+N
+N
+
+--- Slide 80 ---
+
+Analyze Your Data: Select Appropriate  Test
+Depends on the variables and the types of questions you  want to answer
+Whether the data is numerical, categorical
+How many categories there are in the categorical variable
+Whether the data is paired or not
+Whether the data is parametric or not
+
+--- Slide 81 ---
+
+Interpret Your Results
+Find the Test Statistic, DF, and P-value
+Generally picking them out of a results table
+If the test does not give degrees of freedom (DF), use number of samples instead (N)
+Determine if significant
+If the p-value is below a certain threshold (usually 0.05), it is significant
+If the p-value is above, it is not significant
+State if null hypothesis rejected or not
+Null hypothesis rejected if significant p-value for the test statistic
+Write result
+Answer the question stated from the data exploration
+Include the test statistic, p-value, and degrees of freedom
+Also include type of test
+Example 1: Female sharks were significantly larger than males sharks (two-tailed T-test, F=5.67, p-value=0.0024, DF=19)
+Example 2: There was no relationship between the number of cups of coffee drunk and exam score (Pearson Correlation,
+F=1.23, p-value=0.5863, DF=24)
+Present appropriate plot
+Don’t typically plot anything for a non-significant test
+Simple tests like t-tests can just have the written results; more complex analyses like correlation or ANOVA should get a plot
+
+--- Slide 82 ---
+
+
+
+Assessment 5
+Based on the Q-Q plot to the right, would  you consider the data normally  distributed or not?
+Based on the normality test to the right,  would you consider the data normally  distributed or not?
+A variable in a dataset is assessed for  normality and found to not be normally  distributed. However, a logarithmic  transformation of the data is normally  distributed.	Can you use a parametric  test?
+
+--- Slide 83 ---
+
+Assessment 5 Answers
+Based on the Q-Q plot to the right, would you  consider the data normally distributed or  not?
+No, the points don’t follow the straight line
+very well at all
+Based on the normality test to the right,  would you consider the data normally  distributed or not?
+No, significant p-value means it likely does
+not follow a normal distribution
+A variable in a dataset is assessed for  normality and found to not be normally  distributed.	However, a logarithmic  transformation of the data is normally  distributed.	Can you use a parametric test?  Yes, on the transformed data
+
+--- Slide 84 ---
+
+Types of tests
+1 categorical variable + 1 numerical variable
+Categorical variable is non-paired and group number is one:
+One Sample T-test
+Categorical variable is non-paired and group number is two:
+Parametric: T-test
+Non-parametric: Mann-Whitney Test
+Categorical variable is paired and group number is two:
+Parametric: Paired T-test
+Non-parametric: Wilcoxon Signed Ranks Test
+Categorical variable is non-paired and group number is greater than two:
+Parametric: ANOVA
+Non-parametric: Kruskal Wallace Test
+Categorical variable is paired and group number is greater than two:
+Parametric: Repeated Measures ANOVA
+Non-parametric: Friedman test
+2 numerical variables
+Correlation
+Parametric: Pearson correlation (usually)
+Non-parametric: Spearman rank-order correlation
+2 categorical variables
+Chi Square test
+
+--- Slide 85 ---
+
+
+--- Slide 86 ---
+
+One Sample T-test
+1 categorical variable + 1 numerical variable
+Categorical variable is non-paired and  group number is one
+This is when you have a single numerical variable
+you are interested in and want to know if it is  different from some value
+Is the average height of basketball players  greater than 6.2 feet?
+Is the infant mortality rate in a certain  county less than 2 death in 1000?
+Is the effectiveness of treatment of a new  drug any different from zero?
+1.	Explore your data
+Easy, since all you have is one variable
+Histogram and maybe boxplot
+Check normality
+Histogram, QQ-plot
+Set up hypothesis
+Null: the variable is no different from a certain  value
+Alternative: it is different
+Select and run appropriate test
+Student’s T-test
+If non-parametric, mumble, mumble Mann-  Whitney
+Interpret results
+Null rejected or failed to reject?
+What does it mean for your question
+Write it out
+
+--- Slide 87 ---
+
+One Sample T-test
+Example: Women’s Height
+data on the heights of women of
+different ages (women, age, height).
+Focus on just the first column of  young women (women from ages  20-24)
+Question: Is the average height of  women ages 20-24 different from  155cm?
+Open waheig2 file in SPSS
+Explore data and check normality
+We know that it is for this
+Define null and alternative hypothesis to question.
+Null= there is no difference
+Alt= there is a difference (younger women different than  155cm)
+Run t-test (2-sample T-test)
+Analyze -> Compare Means -> One-Sample T-test
+Sam20-24 goes into the Test variable box
+Set Test value to 155
+Interpret Results
+See next page
+What is the test statistic, degrees of freedom, and p-value?
+Did you reject or fail to reject the null?
+What does it mean for the question?
+Are young women on average different from a height of  155cm? How so?
+Part B-2
+
+--- Slide 88 ---
+
+Find the Test Statistic, DF, and P-  value
+t=7.533
+DF=29
+P-value<0.0001
+Determine if significant
+P-value < 0.05
+Significant
+State if null rejected or not
+Reject Null
+Write result
+Young women were  significantly taller  (mean=162.5) than the value  of 155 cm (1-sample t-test,  t=7.533, DF=29, p-  value<0.0001).
+Present appropriate plot
+N/A
+Degrees of  Freedom
+Test Statistic
+P-value
+
+--- Slide 89 ---
+
+T-test
+1 categorical variable + 1 numerical  variable
+Categorical variable is non-paired and  group number is two
+This is when you have a single numerical  variable you are interested in and want to  know if it is different between two groups
+Are men taller than women?
+Does treatment A reduce mortality  more than treatment B?
+Are there more sharks attacks on the
+East Coast or the West Coast?
+Explore your data
+Histogram of numerical variable
+Boxplot of numerical variable grouped by  the categorical variable
+Check normality
+Histogram, QQ-plot
+Set up hypothesis
+Null: there is no difference between groups
+Alternative: there is a difference
+Select and run appropriate test
+Parametric: T-test
+Non-parametric: Mann-Whitney
+Interpret results
+Null rejected or failed to reject?
+What does it mean for your question
+Write it out
+Part B-2
+
+--- Slide 90 ---
+
+T-test: Examples
+Parametric Example: Women Height
+data on the heights of women of
+different ages (women, age, height).
+This is not paired data, these are 60  different women not the same 30  measured twice with 30 years between!
+Question: Is there a difference in height  between the two age groups of women?
+5.	Interpret Results
+Open waheig2S file in SPSS
+Explore data and check normality
+We know that it is for this
+Define null and alternative hypothesis to question.
+Null= there is no difference
+Alt= there is a difference (younger women taller)
+Run t-test (2-sample T-test)
+Analyze -> Compare Means -> Independent-Samples T-test
+All heights goes in to Test variables
+Age range goes in to Grouping variable
+
+
+See next page
+What is the test statistic, degrees of freedom, and p-value?
+Did you reject or fail to reject the null?
+What does it mean for the question?
+Are the two groups of women different?
+If so, how are they different (which group is taller?)
+Part B-2
+
+--- Slide 91 ---
+
+Find the Test Statistic, DF, and P-  value
+F=0.094
+DF=58
+P-value=0.016
+Determine if significant
+P-value < 0.05
+Significant
+State if null rejected or not
+Reject the null
+Write result
+Younger women, age range of  20-24, are significantly taller  than older women of an age  range of 50-54 (2-tailed T-test,  F=0.094, DF=58, P-  value=0.016).
+Present appropriate plot
+N/A
+Degrees of  Freedom
+Test Statistic
+P-value
+
+--- Slide 92 ---
+
+Interpreting Results
+Look at table
+Find the various values:
+Test statistic:
+Degree of freedom or number of samples
+P-value: tells you whether to reject or fail to reject the null hypothesis
+Typically, the cutoff value is 0.05
+So, if value is <0.05, Reject the Null (and Retain the Alternative)
+If value >0.05, Fail to Reject the Null, so retain the Null over the Alternative
+–	(another way of saying, “based on our statistical test, there is no evidence that reality is
+anything other than the null hypothesis”)
+
+--- Slide 93 ---
+
+T-test: Examples 2
+Non-Parametric Example: Student
+Contribution
+The file has all the numbers  representing the number of times each  student contributed in the variable called  “speakn” and the age group in the  variable called “grp”
+Each row of this data represents a  student, the number in the “speakn”  column is the amount they contributed  and the number in the “grp” column tells  us their age and year grouping.
+The middle column is just some text to  help you see which group is which, if you  go to variable view you will see the “grp”  variable labels similar to the ones  explained in the previous task
+Question: Do mature first year students  contribute more than young first year  students?
+5.	Interpret Results
+Open studentsss file in SPSS
+Explore data and check normality
+Should not be normally distributed
+Define null and alternative hypothesis to question.
+Fill out yourself
+Run t-test (Mann-Whitney)
+Analyze -> Nonparametric Tests-> Legacy Dialoges->2  independent samples
+Speakn goes in the Test Variable
+Age goes in the Grouping Variable
+Need to define groups (1=Year1 young, 2=Year1 mature)
+Make sure the Mann-Whitney test is ticked (under Test Type)
+
+
+See next page
+What is the test statistic, degrees of freedom, and p-value?
+Did you reject or fail to reject the null?
+What does it mean for the question?
+Are the two groups of students different? If so, how?
+Part B-2
+
+--- Slide 94 ---
+
+Find the Test Statistic, DF, and P-  value
+U=23.500
+DF=n/a
+P-value=0.007 (Exact)
+Determine if significant
+P-value < 0.05
+Significant
+State if null rejected or not
+Reject the null
+Write result
+Mature students (group 2)  spoke significantly more than  young students (Mann-Whitney  Test, U=23.500, N=23, P-  value=0.007 with exact  significance).
+Present appropriate plot
+
+
+
+--- Slide 95 ---
+
+Paired T-test
+1 categorical variable + 1 numerical  variable
+Categorical variable is paired and  group number is two
+This is when you have a single numerical  variable you are interested in and want to  know if it is different between two groups,  but the groups have a integral relationship  (they are paired)
+Often ‘before’ and ‘after’ type data
+Is heartrate different before and after
+exercise
+Is the number of bear attacks in parks  lower after preventative measures  have been implemented?
+Does treatment reduce symptoms?
+Explore your data
+Histogram of numerical variable
+Boxplot of numerical variable grouped by  the categorical variable
+Check normality
+Histogram, QQ-plot
+Set up hypothesis
+Null: there is no difference between groups
+Alternative: there is a difference
+Select and run appropriate test
+Parametric: Paired T-test
+Non-parametric: Wilcoxon test
+Interpret results
+Null rejected or failed to reject?
+What does it mean for your question
+Write it out
+Part B-2
+
+--- Slide 96 ---
+
+Paired T-test: Examples
+Parametric/Non-par Example: Student Steps
+data in this file come from an  experiment to see whether subjects  could perform more step exercises in a  fixed time in a group or on their own
+Paired data often occur in ‘before and  after’ situations. They are also known as  ‘related samples’. These data are paired,  it’s the same person doing step  exercises under two different conditions.
+Question: Is there a difference in the  number of exercises completed in a fixed  time for students alone versus in a  group?
+Open Step file in SPSS
+Explore data and check normality
+Whether it is normally distributed or not, try both ways.
+Define null and alternative hypothesis to question.
+Run Both Parametric and Non-Parametric
+Parametric: Analyze->Compare Means->Paired Samples T-test
+Both group and individ goes in Test Pair list
+Non-Parametric: Analyze-> Nonparametric Tests -> 2 related  samples
+Both group and individ goes in Test Pair list
+Make sure Wilcoxon is selected in Test Types
+Also include Descriptive Statistics
+5.	Interpret Results
+See next page
+What is the test statistic, degrees of freedom, and p-value?
+Did you reject or fail to reject the null?
+What does it mean for the question?
+Are the two groups different?
+Part B-2
+
+--- Slide 97 ---
+
+Find the Test Statistic, DF, and P-  value
+t=3.503
+DF=11
+P-value=0.005
+Determine if significant
+P-value < 0.05
+Significant
+State if null rejected or not
+Reject the null
+Write result
+Subjects had a tendency to  complete more steps under  group conditions than under
+individual conditions. (Paired  Samples T-test, t=3.503,  DF=11, p-value=0.005).
+Present appropriate plot
+N/A
+Degrees of  Freedom
+Test Statistic
+P-value
+
+--- Slide 98 ---
+
+Find the Test Statistic, DF, and P-  value
+Z=-2.631
+DF=n/a
+P-value=0.002
+Determine if significant
+P-value < 0.05
+Significant
+State if null rejected or not
+Reject the null
+Write result
+Subjects had a tendency to  complete more steps under  group conditions than under
+individual conditions. (2-tailed  Wilcoxon signed ranks test,  Z=-2.631, n=24, p = 0.009).
+Present appropriate plot
+N/A
+
+--- Slide 99 ---
+
+Correlation
+2 numerical variables
+This is when you have two numerical variables and  you want to see if there is a relationship between  the two (positive, negative)
+Is there a relationship between drug  concentration and inflammation level?
+Is there a relationship between length and
+weight in trout?
+Is there a relationship between the number of  guns and violent crime rates in a city?
+Remember, correlation is not causation
+Explore your data
+Determine which variable is dependent and which is  independent
+Histogram of dependent variable
+Scatterplot (independent on x-axis, dependent on y-  axis)
+Check normality
+Histogram, QQ-plot, of dependent variable
+Set up hypothesis
+Null: there is no relationship between the variables
+Alternative: there is a relationship
+Select and run appropriate test
+Parametric: Pearson Correlation
+Non-parametric: Spearman Rank-correlation
+Interpret results
+Null rejected or failed to reject?
+What does it mean for your question
+Write it out
+Part B-2
+
+--- Slide 100 ---
+
+Correlation: Examples
+Parametric Example: Women Height
+file contains data from a student project
+on the effect of heat on hip stretches.
+The first column gives the subject’s  height, and the second column gives 54  the increase in hip extension after  stretching exercises.
+(Other columns relate to the discomfort  experienced, and the stretch and  discomfort when heat is used; for our  purposes those are nuisance variables)
+	This is paired data (measurements  taken under two conditions)
+Question: Is there a relationship  between the subject’s stretch increase  and height
+1.
+2.
+1.
+2.
+3.
+3.
+4.
+5.
+Interpret Results
+1.
+2.
+3.
+4.
+5.
+Open Heathip file in SPSS
+Explore data and check normality
+Determine which is dependent and which is independent  Whether it is normally distributed or not
+Plot scatterplot (height on x-axis and stretch (without heat) on y-axis):
+Graphs->Interactive Scatterplot
+Define null and alternative hypothesis to question.  Run Appropriate test (Try both)
+Parametric
+Analyze->Correlate->Bivariate
+Height and stretch go in Variable
+Make sure Pearson is checked under Correlation Coefficients
+Also check that Two-Tailed is set up and Flag significant correlations
+Non-Parametric: same thing but check “Spearman” instead of Pearson
+
+
+See next page
+What is the test statistic, degrees of freedom, and p-value?  Did you reject or fail to reject the null?
+What does it mean for the question?
+Is there a relationship? If so, what type (positive/negative) and how strong?
+Part B-2
+
+--- Slide 101 ---
+
+If a result is not significant, it is no  necessary to include the test  statistic and p-value
+Should not graph results
+Find the Test Statistic, DF, and P-  value
+Pearson Correlation=-0.548
+N=10
+P-value=0.101
+Determine if significant
+P-value > 0.05
+Not Significant
+State if null rejected or not
+Failed to reject Null
+Write result
+There was no correlation  between Height and Stretch  Increase in subjects.
+Present appropriate plot
+N/A
+
+--- Slide 102 ---
+
+Correlation Notes
+Looking for correlation is different from looking for increases or decreases
+Correlation does not necessarily mean a causal relationship. Just because two  values appear to go up and down together does not mean one is causing the other.
+The Pearson’s coefficient is designed primarily for looking at linear relationships.  Two variables can be related, but if the relationship is not linear, Pearson’s  correlation coefficient is not an appropriate statistic for measuring their association.
+The number of observations as with other statistics effects the significance.
+Part B-5
+
+--- Slide 103 ---
+
+P-values a summary
+"P-values do not simply provide you with a Yes or No  answer, they provide a sense of the strength of the  evidence against the null hypothesis.
+The lower the p-value, the stronger the evidence.
+Once you know how to read p-values, you can more  critically interpret journal articles, and decide for  yourself if you agree with the conclusions of the  author. " - TexaSoft, (1996-2001)
+
+--- Slide 104 ---
+
+Chi-Square
+2 categorical variables
+This is when you have two categories (simple case is that  the categories have two groups in each, but doesn’t need to  be the case)
+End up getting frequencies of each category class and then  generation overall ratios
+Tests for whether the categories are independent or not;  can be set up against many null frequencies
+Non-parametric, so there isn’t a parametric/non-parametric  dichotomy
+The data are assumed to be a random sample.
+The expected frequencies for each category should  be at least 1.
+No more than 20% of the categories should have
+expected frequencies of less than 5."
+Examples:
+Is hair color independent of gender?
+Are the ratios of expected genetic crosses of pea  plants independent of the observed genetic  crosses?
+Is coffee type (caffeinated, decaf) independent of  mood (happy, sad)?
+5.	Interpret results
+Explore your data
+Check normality
+Not applicable
+Set up hypothesis
+Null: categories are independent
+Alternative: categories are not independent
+Select and run appropriate test
+Chi-Square
+
+Null rejected or failed to reject?
+What does it mean for your question
+Write it out
+Part B-2
+
+--- Slide 105 ---
+
+Chi	Square: Examples
+Parametric Example: Male/Female Ratio
+Does the ratio of males to females in  each school in SHU reflect the overall  ratio in the university? (or put another  way is there a larger than expected  number of one gender in some schools?)
+The data we have available are from a  survey of students done in 2001.
+You will see that the data is all numeric.  If you want to know what the numbers  represent you can look under the  Variable View to find out, but this isn't  necessary for our purpose. The crosstab  system automatically labels the output!
+Question: Does each school in the SHU  have male/female ratio that reflect the  overall ratio?
+1.
+2.
+Explore data
+1.
+2.
+3.
+4.
+3.
+4.
+Run Appropriate test
+1.
+2.
+5.
+Interpret Results
+1.
+2.
+3.
+4.
+Open Students data 2001 file in SPSS
+
+Analyze->Descriptive Statistics->Crosstabs  Put Gender under Row(s)
+Put School under Column(s)
+Examine Crosstabulation table
+Define null and alternative hypothesis to question.
+Get the ‘expected’ values
+Go to Crosstabs dialog box
+Click Cells button then select ‘Expected’ under the counts section
+
+
+Analyze->Descriptive Statistics->Crosstabs
+Click Statistics button, then select “Chi-Square”
+
+
+See next page
+What is the test statistic, degrees of freedom, and p-value?  Did you reject or fail to reject the null?
+What does it mean for the question?
+Part B-2
+
+--- Slide 106 ---
+
+Find the Test Statistic, DF, and P-  value
+Chi-Square=635.561
+DF=8
+P-value<0.0001
+Determine if significant
+P-value < 0.05
+Significant
+State if null rejected or not
+Reject the null
+Write result
+There is a significant  difference in the  representation of the sexes  across the schools (2-tailed  chi square test, chi-  sq=635.561, df=8, p-  value<0.0001).
+Present appropriate plot
+N/A
+
+--- Slide 107 ---
+
+1-way ANOVA
+1 categorical variable + 1 numerical variable
+Categorical variable is un-paired and group  number is greater than two
+This is when you have a single numerical variable  you are interested in and want to know if it is  different between multiple groups
+Is there a difference in grade point average  between Freshmen, Sophomores, Juniors,  and Seniors?
+Is there a difference in soil moisture  retention between 5 types of soil plot  designs?
+Is there a size difference between 4
+different species of owls?
+Important thing, the ANOVA test doesn’t tell you  which groups are different, only that there is a  statistical difference
+Need to do a Post Hoc test to determine what the
+difference is
+Explore your data
+Histogram of numerical variable
+Boxplot of numerical variable grouped by the  categorical variable
+Check normality
+Histogram, QQ-plot
+Set up hypothesis
+Null: there is no difference between groups
+Alternative: there is a difference
+Select and run appropriate test
+Parametric: One-Way ANOVA
+Non-parametric: Krustal Wallace Test
+Interpret results
+Null rejected or failed to reject?
+Post Hoc test
+What does it mean for your question
+Write it out
+Part B-2
+
+--- Slide 108 ---
+
+One Way ANOVA: Examples
+Parametric Example: Teaching Methods
+An experimenter is interested in evaluating  the effectiveness of three methods of  teaching a given course.
+A group of 24 subjects is available to the  experimenter
+This group is considered by the  experimenter to be the equivalent of a  random sample from the population of  interest.
+Three subgroups of eight subjects each are  formed at random; the subgroups are then  taught by one of the three methods. Upon  completion of the course, each of the  subgroups is given a common test (exam)  covering the material in the course
+Note: the Method is set up with numbers
+(1,2,3) but is actually categorical
+Question: Is there a difference in scores  between the three methods?
+1.	Open anova one way example file in SPSS
+2.
+Explore data and test for normality
+Histogram of scores
+Boxplots of scores by method
+3.
+Define null and alternative hypothesis to question.
+1.	Fill out yourself
+4.
+Run Appropriate test
+1.
+2.
+3.
+Analyze->Compare Means->One-Way ANOVA  Score in Dependent List
+Method in Factor
+5.
+Interpret Results
+1.
+2.
+3.
+4.
+See next page
+What is the test statistic, degrees of freedom, and p-value?
+Did you reject or fail to reject the null?
+If reject, null, run post hoc and determine the difference.
+Go back to One Way ANOVA dialog box
+Choose Post Hoc -> Tukey
+5.	What does it mean for the question?
+Part B-2
+
+--- Slide 109 ---
+
+Find the Test Statistic, DF, and P-value
+F=6.053
+DF=23
+P-value=0.008
+Determine if significant
+P-value < 0.05
+Significant
+State if null rejected or not
+Reject the Null
+Write result
+There was a significant difference in  teaching methods (1-way ANOVA,  F=6.052, DF=23, p-value=0.008). Method  3 had the highest exam scores
+Present appropriate plot
+Barplot
+
+--- Slide 110 ---
+
+Notes on ANOVA
+Basically, ANOVA answers the question “Is there a significant difference between the samples  (is any one different from the others)?”
+If there is not (Sig. >0.05) then there is no need to go any further
+If there is then you might want to know which sample(s) is different from each other.
+A supplementary (Post-hoc) test is carried out to investigate differences between the samples.
+Selecting a post test is not simple; generally, to compare groups with each other choose the  Tukey test.)
+
+--- Slide 111 ---
+
+Non-Parametric Example: Teaching Methods
+The data are really three different sets of  scores, one set for each group, so when  we test them for normality, we need to  remember this, if we treat them as one  group then any differences between the  groups might lead us to thing that the  data aren’t normally distributed when  the data from each group is
+It is the normality of each group that
+matters
+Question: Is there a difference in scores  between the three methods?
+One Way ANOVA: Examples
+1.	Open anova one way example file in SPSS (again)
+2.
+Explore data and test for normality (the CORRECT way)
+Normality: Analyze->Descriptive Statistics->Explorer
+Put Score in Dependent list box, then click on the Plots button
+Click to select Normality plots with tests (if p-value below 0.05 in any of the groups,
+then go non-parametric)
+Pretend that it was the case and try non-parametric (just less power)
+3.
+Define null and alternative hypothesis to question (SAME AS BEFORE)
+4.
+Run Appropriate test
+1.
+2.
+3.
+Analyze->Non-Parametric Tests->Legacy Dialogs -> K Independent Samples
+Score in Test Variable List
+Method in Grouping Variable (define groups to 3 using the Define Range button)
+5.
+Interpret Results
+1.
+2.
+3.
+4.
+See next page
+What is the test statistic, degrees of freedom, and p-value?
+Did you reject or fail to reject the null?
+If reject, null, run post hoc and determine the difference.
+Go back to One Way ANOVA dialog box
+Choose Post Hoc -> Tukey
+5.	What does it mean for the question?
+Part B-2
+
+--- Slide 112 ---
+
+Notice that the nonparametric test still says that there is a significant  difference between the groups (p=0.018) however it isn't quite as  well convinced as the more sensitive ANOVA. This is a good  illustration of the minor penalty that you pay for the more rugged 75  nonparametric tests, they are less likely to catch a small effect that  does exist, i.e. they are less powerful.
+Run Post-Hoc test like before (Tukey)
+So to recap; generally scores would be better treated by  nonparametric methods. In this example we did find them to be  normally distributed and used them as an example in applying a one  way ANOVA and its nonparametric equivalent, the Kruskal-Wallis test.  Finally, the two tests agreed but we noticed a slight difference in how  certain they were.
+Find the Test Statistic, DF, and P-value
+Chi-Square=8.077
+DF=2
+P-value=0.018
+Determine if significant
+P-value < 0.05
+Significant
+State if null rejected or not
+Reject the Null
+Write result
+There was a significant difference in  teaching methods (Kruskal Wallis  Test, Chi-Square=8.077, DF=2, p-  value=0.018). Method 3 had the  highest exam scores.
+Present appropriate plot
+Boxplot
+
+--- Slide 113 ---
+
+1 categorical variable + 1 numerical variable
+–	Categorical variable is paired and group  number is greater than two
+This is when you have a single numerical variable  you are interested in and want to know if it is  different between multiple groups that are paired,  usually the same subject
+Is there a difference in grade point average  between students their Freshman,  Sophomore, Junior, or Senior year?
+Is there a difference in soil moisture retention  1, 2, 3, 4, 5, or 6 years post treatment?
+Is there a difference in heartrate after 1, 2,
+and 3 cups of coffee?
+Repeated Measures ANOVA like extension of the  paired t-test, like 1-way ANOVA like extension of the  independent samples t-test
+Repeated Measures ANOVA
+1.	Explore your data
+Histogram of numerical variable
+Boxplot of numerical variable grouped by the  categorical variable
+2.	Check normality
+Histogram, QQ-plot, Test for Normality
+Do these by group
+3.	Set up hypothesis
+Null: there is no difference between groups
+Alternative: there is a difference
+4.	Select and run appropriate test
+Parametric: Repeated Measures ANOVA
+Non-parametric: Friedman Test
+5.	Interpret results
+Null rejected or failed to reject?
+Post Hoc test
+What does it mean for your question
+Write it out
+Part B-2
+
+--- Slide 114 ---
+
+Parametric Example: Jumping
+The following data shows the results of  an experiment where subjects jumped  three times.
+Each subject jumped three times, the  height was recorded, the column  labelled Jump1 has each subjects first  jump in it, the column labelled Jump2  has each subjects second jump in it and  so on.
+Question: Is there a difference in energy
+between the three jumps?
+Repeated Measures ANOVA: Examples
+1.	Open Three Jumps file in SPSS
+2.
+Explore data and test for normality (the CORRECT way)
+Normality: Analyze->Descriptive Statistics->Explorer
+Put the three variables containing the energies (jump 1-3) in Dependent Box
+Click to select Normality plots with tests (if p-value below 0.05 in any of the groups,
+then go non-parametric)
+3.
+Define null and alternative hypothesis to question
+1.	Fill out yourself
+4.
+Run Appropriate test
+1.
+2.
+
+3.
+Analyze->General Linear Model->Repeated Measures
+Repeated Measure; define factors dialog should appear -> put 3 in number of  levels, as there were three jumps, then click Add button
+Click define, highlight the three jump variables and send them into the box with the  question marks in and click OK
+5.
+Interpret Results
+1.
+2.
+3.
+4.
+See next page
+What is the test statistic, degrees of freedom, and p-value?  Did you reject or fail to reject the null?
+If reject, null, run post hoc and determine the difference.
+1.	Analyze->Compare Means->Paired-Samples T Test (no more than three levels)
+5.	What does it mean for the question?
+Part B-2
+
+--- Slide 115 ---
+
+Lots going on
+Two are of importance; Mauchly's Test of Sphericity and
+Tests of Within-Subjects Effects.
+The first one, Mauchly's Test of Sphericity, tells us which  line of the second one to read (don't worry to much, just  whatever) if sig value greater than 0.05, use first line in  the Tests of Within-Subjects Effects,
+If not, use Greenhouse-Geisser
+Find the Test Statistic, DF, and P-  value
+F=7.233
+DF=2
+P-value=0.002
+Determine if significant
+P-value < 0.05
+Significant
+State if null rejected or not
+Reject the Null
+Write result
+There was a significant in  energy used between the three  jumps (Repeated Measures  ANOVA, Spericity Assumed,  F=7.233, DF=2, p-value=0.002).
+Present appropriate plot
+Barplot
+
+--- Slide 116 ---
+
+Non-Parametric Example: Walking
+One group of subjects walked in three  conditions; no crutches, elbow crutches  and axillary crutches
+the energy used was measured
+(indirectly by looking at the oxygen used)
+Notice that there is no discriminatory  variable in this data set, this is because  there is only one group, each person  was measured in all three conditions.
+Question: Is there a difference in energy  used between the three methods?
+Repeated Measures ANOVA: Examples
+1.	Open enerjy and cruches file in SPSS
+2.
+Explore data and test for normality (the CORRECT way)
+Normality: Analyze->Descriptive Statistics->Explorer
+Put the three variables containing the energies in Dependent Box
+Click to select Normality plots with tests (if p-value below 0.05 in any of the groups,
+then go non-parametric)
+3.
+Define null and alternative hypothesis to question
+1.	Fill out yourself
+4.
+Run Appropriate test
+1.
+2.
+Analyze->Non-Parametric Tests->Legacy Dialogs->K-related samples
+Put all the three variables in the Test Variable Box
+5.
+Interpret Results
+1.
+2.
+3.
+4.
+See next page
+What is the test statistic, degrees of freedom, and p-value?
+Did you reject or fail to reject the null?
+If reject, null, run post hoc and determine the difference.
+1.	NONE FOR NOW
+5.	What does it mean for the question?
+Part B-2
+
+--- Slide 117 ---
+
+Find the Test Statistic, DF, and P-  value
+Chi-Square=7.233
+DF=2
+P-value=0.670
+Determine if significant
+P-value > 0.05
+Not Significant
+State if null rejected or not
+Fail to Reject the Null
+Write result
+There was no significant  difference in energy used  between the three jumps  walking measures.
+Present appropriate plot
+N/A
+
+--- Slide 118 ---
+
+Mixed Designs
+Can combine things for more complicated analysis
+We can think of the repeated measures ANOVA as an extension of the paired t-test,
+and the One-way ANOVA as an extended version of the independent samples t-test
+A mixed design is when we have for example two groups of subjects measured  repeatedly, e.g. two treatments, each treatment group being measured before and a  couple of times after treatment
+Beyond the scope of this Presentation
+Professional approach -> just use generalized linear mixed model with the
+appropriate distribution
+Part C-7
+
+--- Slide 119 ---
+
+
+
+Assessment 6
+A Non-parametric paired test was
+performed one two different heart
+rates of the same individual. Based
+on the results to the right, was there a
+significant difference between the two  heart measurements? If so, how?
+The number of bears and the number
+of marshmallows was counted at
+various campsites. Is there a
+correlation between bears and
+marshmallows? If so, what is the  strength and direction?
+Individuals from three different animal
+groups (Sharks=1, Dinosaurs=2,
+Bears=3) were rated for coolness. A
+one-way ANOVA was performed, along
+with a Post Hoc Test. Was there a
+significant difference in coolness
+across the three groups?
+
+--- Slide 120 ---
+
+A Non-parametric paired test was  performed one two different heart rates  of the same individual. Based on the  results to the right, was there a  significant difference between the two  heart measurements? If so, how?
+No significance.
+The number of bears and the number of  marshmallows was counted at various  campsites. Is there a correlation  between bears and marshmallows? If  so, what is the strength and direction?
+Significant correlation. Strong-Positive
+Individuals from three different animal  groups (Sharks=1, Dinosaurs=2,  Bears=3) were rated for coolness. A  one-way ANOVA was performed, along  with a Post Hoc Test. Was there a  significant difference in coolness across  the three groups?
+Significant difference.
+Assessment 6  Answers
+
+
+--- Slide 121 ---
+
+Part D: Other Analyses
+Reliability and Sensitivity
+Reliability: how consistent measurements are
+Inter-rater reliability deals with the issue of reliability between different people  (raters).
+Intra-rater reliability deals with whether one rater is consistent, i.e. when they re-
+look at the same subjects do they rate them in a similar way again.
+Sensitivity: how much measurements can detect true effects
+Part D-0
+
+--- Slide 122 ---
+
+Reliability: Examples
+Imagine that a student wants to find out if a
+certain exercise can improve performance.
+To measure performance they decide to use a  simple measured jump. However to be sure  that he can sensibly repeat the measures  after the exercise regime has been completed  he wants to estimate the reliability of his  measurement method.
+To get round the problems of (XYZ), use  Intraclass Correlation Coefficient
+The coefficient will tell us how much
+agreement the two measurements have
+Can also use Cronbach’s Alpha, another  measure of reliability (Note that a reliability  coefficient of .70 or higher is considered  "acceptable" in most Social Science research  situations using Cronbach's Alpha)
+Alpha also works for more than 2 measures
+Open ICC and Cronbachs alphs file in SPSS
+Calculate the ICC
+Analyze->Scale->Reliability Analysis
+Put Jump 1 and 2 into the Items box and click  statistics
+Tick the Intraclass Correlation Coefficient
+Calculate the Alpha
+Done at the same time by the analysis
+Part B-2
+
+--- Slide 123 ---
+
+The Intraclass Correlation Coefficient (ICC) in this case is  0.962 we use the single measures because the figures we  fed SPSS were raw measurements not an average of  several attempts. This value, 0.962 shows a considerable  amount of agreement!
+Find the Test Statistic, DF, and P-  value
+Coefficient=55.606
+DF1=5
+DF2=5
+P-value<0.0001
+Determine if significant
+P-value < 0.05
+Significant
+State if null rejected or not
+Reject the Null
+Write result
+There was a significant  correlation between jump  measurements (ICC=55.606,  DF=5,5, p-value<0.0001
+Present appropriate plot
+N/A
+
+--- Slide 124 ---
+
+Inter-rater agreement using Kappa
+Do two measurement agree, or two  measurers (raters)?
+Between any two raters, even if they  just guessed, there would have still  been a degree of agreement just due  to chance
+The Kappa statistic takes this into  account
+Part D-3
+Open radiologist eg from p403 file in SPSS
+Analyze->Descriptives->Crosstabs
+Put Radiologist 1 in Rows
+Put Radiologist 2 in Columns
+Click statistics and choose Kappa
+
+--- Slide 125 ---
+
+Find the Test Statistic, DF, and P-  value
+Kappa=0.473
+N=85
+P-value<0.0001
+Determine if significant
+P-value < 0.05
+Significant
+State if null rejected or not
+Reject the Null
+Write result
+There was moderate agreement  between raters (Kappa=0.473,  N=85, p-value<0.0001).
+Present appropriate plot
+N/A
+
+--- Slide 126 ---
+
+Calculating sensitivity and specificity of  a diagnostic test
+The table below is a 2x2 cross tabulation (contingency table) representing the  findings of a diagnostic test when compared to the actual disease state. I.e. a  comparison of what the test indicated and the real facts.
+The four cells TP, FP, FN & TN would have in them the number in each category, they  will total the number of cases investigated.
+The crosstabulate command in SPSS or the pivot table feature in MS Excel can  calculate the matrix values.
+Part D-4
+
+--- Slide 127 ---
+
+Calculating sensitivity and specificity of  a diagnostic test 2
+Sensitivity=TP/(TP+FN)
+Specificity=TN/(FP+TN)
+Prevalence=(TP+FN)/(TP+FN+FP+TN)
+Positive Predictive Value =TP/(TP+FP)
+Negative Predictive Value =TN/(FN+TN)
+Positive Likelihood=SENS/(1-SPEC)
+Negative Likelihood=(1-SENS)/SPEC
+Overall Accuracy = (TP + TN)/(TP + FP +  FN + TN)
+Part D-4
+
+--- Slide 128 ---
+
+Example
+Sensitivity = TP/(TP+FN) = 45/(45+5) = 45/50 = 0.9
+Specificity = TN/(FP+TN) = 35/(15+35) = 35/50 = 0.7
+
+--- Slide 129 ---
+
+Odds Ratio
+Information and examples based on Explaining Odds Ratio (by Magdalena
+Szumilas)
+Odds Ratio (OR): Measure of association between exposure and outcome
+Odds that an outcome will occur given a particular exposure, compared to absence
+of that exposure
+Uses: odds of disease/disorder given certain exposure (health characteristics,  medical history, treatment, environmental factor, etc.)
+OR=1 (exposure does no affect odds of outcome)
+OR>1 (exposure associated with higher odds of outcome)
+OR<1 (exposure associated with higher odds of outcome)
+
+--- Slide 130 ---
+
+Odds Ratio Calculation
+Odds Ratio (OR) =
+
+OR = a/c / b/d = ad /bc  a=Number of exposed cases  b=number of exposed non-cases  c=number of unexposed cases  d=number of unexposed non-cases
+
+--- Slide 131 ---
+
+Odds Ratio Example
+Can do by hand
+In the study, 186 of the 263 adolescents  previously judged as having experienced  a suicidal behavior requiring immediate  psychiatric consultation did not exhibit  suicidal behavior (non-suicidal, NS) at six  months follow-up. Of this group, 86 young  people had been assessed as having  depression at baseline. Of the 77 young  people with persistent suicidal behavior  at follow-up (suicidal behavior, SB), 45  had been assessed as having depression  at baseline.
+What is the OR of suicidal behavior at six  months follow-up given presence of  depression at baseline?
+Determine the following numbers
+a: Number of exposed cases (+ +) = ?
+b: Number of exposed non-cases (+ –) = ?
+c: Number of unexposed cases (– +) = ?
+d: Number of unexposed non-cases (– –) = ?
+
+--- Slide 132 ---
+
+Odds Ratio Example Cont.
+Q1: Who are the exposed cases (++ = a)?
+A1: Youth with persistent SB assessed as having  depression at baseline
+a=45
+Q2: Who are the exposed non-cases (+ – = b)?
+A2: Youth with no SB at follow-up assessed as having  depression at baseline b=86
+Q3: Who are the unexposed cases (– + = c)?
+A3: Youth with persistent SB not assessed as having
+depression at baseline
+c: 77(SB) –45(depression) = 32
+Q4: Who are the unexposed non-cases (– – = d)?
+A4: Youth with no SB at follow-up not assessed as having  depression at baseline
+d: 186(NS) –86(depression) = 100
+Odds Ratio (OR) = a/c / b/d = ad/bc
+= 45*100 / 86*32 = 1.63
+Odds of persistent suicidal behavior is  1.63, higher given baseline depression  diagnosis compared to no baseline  depression
+
+--- Slide 133 ---
+
+
+
+Assessment 7
+Two scientists observed the number of  cups coffee I drank each day over a two-  week period.  A Kappa statistic (table to  the right) was calculated to see how well  their observations agreed with each other.  Was the agreement significant? If so,  what was the strength of the agreement.
+On the right is a contingency table for the  test of a certain disease (fear of empty  coffee cups). What is the Sensitivity and  Specificity of the test?
+What is the odds ratio for the following  information:
+Number of exposed cases= 45
+Number of exposed non-cases= 66  Number of unexposed cases= 87  Number of unexposed non-cases= 92
+
+--- Slide 134 ---
+
+Assessment 7 Answers
+Two scientists observed the number of cups coffee I  drank each day over a two-week period. A Kappa  statistic (table to the right) was calculated to see how  well their observations agreed with each other. Was  the agreement significant? If so, what was the  strength of the agreement.
+Yes, moderate strength
+On the right is a contingency table for the test of a  certain disease (fear of empty coffee cups). What is  the Sensitivity and Specificity of the test?
+Sensitivity = TP/(TP+FN) = 37/(37+13) = 0.74  Specificity= TN/(FP+TN) = 18/(3+18) = 0.857
+1.	What is the odds ratio for the following information:
+Number of exposed cases= 45  Number of exposed non-cases= 66  Number of unexposed cases= 87
+Number of unexposed non-cases= 92
+OR= a/b / c/d = ad /bc = 45*87 / 66*92 = 0.645
+
+
+--- Slide 135 ---
+
+Summary
+SPSS is a very useful tool in analyzing data that does not depend on lots of computer  coding background
+Analyzing data helps answer important questions we have about science, medicine,
+business, society, etc.
+The three major steps are:
+Explore Your Data
+Analyze Your Data
+Interpret your results
+For more information on SPSS, start by checking out the resources below
+https://www.ibm.com/products/spss-statistics/resources
+https://www.spss-tutorials.com/
+
+--- Slide 136 ---
+
+ 
+THANK YOU
+
+
+For queries
+Email: alankrita.e14496@cumail.in

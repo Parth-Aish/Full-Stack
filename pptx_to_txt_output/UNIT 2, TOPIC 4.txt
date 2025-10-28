@@ -1,0 +1,52 @@
+
+--- Slide 1 ---
+
+TOPIC 4 - WORKING WITH SEQUENCE DATA
+Sequence Data
+Sequence data refers to a type of data where the order of elements matters. 
+This could include time-series data, DNA sequences, text data, etc. 
+Understanding and analysing sequence data is crucial in various fields such as finance, genomics, natural language processing, etc. 
+
+
+--- Slide 2 ---
+
+Using Cross-Record Functions
+Cross-record functions involve operations that span multiple records or observations in a dataset. These functions allow you to compute aggregate values or perform calculations across different records. 
+For example, calculating the average sales across multiple regions or finding the maximum temperature recorded over a period of time involves using cross-record functions.
+
+
+--- Slide 3 ---
+
+Deriving A Counter Field
+Deriving a counter field involves creating a new variable or column in a dataset that counts occurrences or events. 
+This can be useful for various purposes such as tracking the frequency of certain activities, identifying trends, or measuring performance metrics.
+For instance, in a customer database, you might create a counter field to keep track of the number of purchases made by each customer.
+
+
+
+--- Slide 4 ---
+
+Restructuring Data
+Restructuring data involves transforming the format or layout of a dataset to make it more suitable for analysis or visualization. 
+This may include tasks such as reshaping data from wide to long format or vice versa, pivoting columns into rows, or splitting and merging datasets.
+For example, restructuring data from a spreadsheet where each column represents a month's sales into a format where each row represents a single sale transaction can make it easier to analyze sales trends over time.
+
+
+--- Slide 5 ---
+
+
+--- Slide 6 ---
+
+Geospatial and Time Data
+Geospatial and time data involve information related to geographic locations and timestamps.
+ Analyzing geospatial and time data can provide insights into patterns, trends, and relationships that are dependent on both spatial and temporal dimensions. 
+Real-time examples include tracking the movement of vehicles using GPS data to optimize delivery routes, or analyzing the spread of diseases over time and space to understand epidemiological patterns.
+
+
+--- Slide 7 ---
+
+
+--- Slide 8 ---
+
+THANKYOU
+https://www.geeksforgeeks.org/box-plot/
