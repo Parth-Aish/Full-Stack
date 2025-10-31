@@ -1,0 +1,83 @@
+# Name of your GitHub Actions workflow
+name: React App CI/CD
+
+# --- Trigger ---
+# This workflow runs on:
+on:
+  # 1. Every push to the 'main' branch
+  push:
+    branches: [ main ]
+  # 2. Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# --- Permissions ---
+# Set permissions for the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# --- Jobs ---
+# A workflow run is made up of one or more jobs
+jobs:
+  # Job 1: Build the React application
+  build:
+    runs-on: ubuntu-latest # Use the latest Ubuntu runner
+
+    steps:
+      # Step 1: Check out your repository code
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      # Step 2: Set up Node.js (version 18)
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          # Use npm caching to speed up 'npm ci'
+          cache: 'npm'
+
+      # Step 3: Install dependencies
+      # Use 'npm ci' for faster, more reliable installs in CI
+      - name: Install dependencies
+        run: npm ci
+
+      # Step 4: Run tests
+      # create-react-app automatically runs tests once (not watch)
+      # when it detects a CI environment.
+      - name: Run tests
+        run: npm test
+        env:
+          CI: true
+
+      # Step 5: Build the project for production
+      # This uses the 'homepage' field in package.json to set paths
+      - name: Build the project
+        run: npm run build
+
+      # Step 6: Upload the build artifacts
+      # This prepares the 'build' folder for the 'deploy' job
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # This is the default build folder for create-react-app
+          path: ./build
+
+  # Job 2: Deploy the built app to GitHub Pages
+  deploy:
+    # This job depends on the 'build' job completing successfully
+    needs: build
+    runs-on: ubuntu-latest
+
+    # Configure the environment for GitHub Pages
+    environment:
+      name: github-pages
+      # This will output the URL of the deployed page
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      # Step 1: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment # Give the step an ID to reference its output
+        uses: actions/deploy-pages@v4
+        # This action automatically finds the artifact from the 'build' job

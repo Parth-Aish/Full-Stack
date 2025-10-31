@@ -1,0 +1,11 @@
+# Ignore dependencies, they are installed in the container
+node_modules
+
+# Ignore the build output, it's generated in the container
+build
+
+# Ignore other files
+.git
+.gitignore
+.env
+README.md
