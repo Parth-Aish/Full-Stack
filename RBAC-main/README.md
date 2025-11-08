@@ -202,7 +202,7 @@ The `UserProfile` component allows teachers and students to view and edit their 
 ### Backend Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/anugraheeth/RABC.git
+   git clone https://github.com/Parth-Aish/RABC.git
    cd RBAC
    ```
 
